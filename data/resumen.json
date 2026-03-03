@@ -1,0 +1,104 @@
+{
+  "variacion_dia": null,
+  "variacion_mes": null,
+  "total_productos": 1387,
+  "locales": {
+    "Orono": {
+      "total_productos": 463,
+      "variacion_dia": null,
+      "cartas": {
+        "restaurante": {
+          "label": "Restaurante",
+          "total_productos": 135,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "cafeteria": {
+          "label": "Cafeteria",
+          "total_productos": 57,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "vinos-y-espumantes": {
+          "label": "Vinos y Espumantes",
+          "total_productos": 96,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "cocktails": {
+          "label": "Cocktails",
+          "total_productos": 175,
+          "variacion_dia": null,
+          "rubros": []
+        }
+      }
+    },
+    "Alto Rosario": {
+      "total_productos": 462,
+      "variacion_dia": null,
+      "cartas": {
+        "restaurante": {
+          "label": "Restaurante",
+          "total_productos": 135,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "cafeteria": {
+          "label": "Cafeteria",
+          "total_productos": 56,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "vinos-y-espumantes": {
+          "label": "Vinos y Espumantes",
+          "total_productos": 96,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "cocktails": {
+          "label": "Cocktails",
+          "total_productos": 175,
+          "variacion_dia": null,
+          "rubros": []
+        }
+      }
+    },
+    "Savoy": {
+      "total_productos": 462,
+      "variacion_dia": null,
+      "cartas": {
+        "restaurante": {
+          "label": "Restaurante",
+          "total_productos": 135,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "cafeteria": {
+          "label": "Cafeteria",
+          "total_productos": 56,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "vinos-y-espumantes": {
+          "label": "Vinos y Espumantes",
+          "total_productos": 96,
+          "variacion_dia": null,
+          "rubros": []
+        },
+        "cocktails": {
+          "label": "Cocktails",
+          "total_productos": 175,
+          "variacion_dia": null,
+          "rubros": []
+        }
+      }
+    }
+  },
+  "carta_colors": {
+    "Restaurante": "#ef4444",
+    "Cafeteria": "#f59e0b",
+    "Vinos y Espumantes": "#8b5cf6",
+    "Cocktails": "#0ea5e9"
+  },
+  "fecha_actualizacion": "2026-03-03"
+}

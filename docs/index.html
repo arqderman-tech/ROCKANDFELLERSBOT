@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock & Feller's Price Tracker</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+  :root {
+    --bg: #0a0c12; --surface: #13161f; --surface2: #1a1d27; --border: #252836;
+    --accent: #0ea5e9; --accent2: #6366f1;
+    --red: #ef4444; --green: #22c55e; --amber: #f59e0b; --purple: #8b5cf6;
+    --text: #e2e8f0; --muted: #64748b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'IBM Plex Sans', sans-serif; }
+
+  header {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 1.25rem 2rem; display: flex; justify-content: space-between;
+    align-items: center; flex-wrap: wrap; gap: 1rem;
+  }
+  header h1 { font-family: 'IBM Plex Mono', monospace; font-size: 1.25rem; color: var(--accent); }
+  header .tagline { font-size: 0.78rem; color: var(--muted); margin-top: 0.2rem; }
+
+  .container { max-width: 1300px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+
+  /* HERO STATS */
+  .hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+  .stat-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.2rem; text-align: center;
+  }
+  .stat-card .label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0.4rem; }
+  .stat-card .value { font-family: 'IBM Plex Mono', monospace; font-size: 1.8rem; font-weight: 700; }
+  .stat-card .sub { font-size: 0.75rem; color: var(--muted); margin-top: 0.25rem; }
+
+  /* MAIN TABS (locales) */
+  .main-nav {
+    display: flex; gap: 0; margin-bottom: 1.5rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; overflow: hidden; flex-wrap: wrap;
+  }
+  .local-tab {
+    flex: 1; padding: 0.75rem 1.25rem; border: none; background: transparent;
+    color: var(--muted); cursor: pointer; font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.82rem; transition: all 0.2s; border-right: 1px solid var(--border);
+    min-width: 120px;
+  }
+  .local-tab:last-child { border-right: none; }
+  .local-tab.active { background: var(--accent); color: #fff; }
+  .local-tab:hover:not(.active) { background: var(--surface2); color: var(--text); }
+
+  /* LOCAL PANELS */
+  .local-panel { display: none; }
+  .local-panel.active { display: block; }
+
+  /* CARTA TABS */
+  .carta-nav {
+    display: flex; gap: 0.4rem; margin-bottom: 1.25rem; flex-wrap: wrap;
+  }
+  .carta-tab {
+    padding: 0.4rem 0.9rem; border-radius: 20px; border: 1px solid var(--border);
+    background: transparent; color: var(--muted); cursor: pointer;
+    font-size: 0.8rem; transition: all 0.2s;
+  }
+  .carta-tab.active { border-color: var(--accent); color: var(--accent); background: rgba(14,165,233,0.08); }
+  .carta-tab:hover:not(.active) { border-color: var(--muted); color: var(--text); }
+
+  .carta-panel { display: none; }
+  .carta-panel.active { display: block; }
+
+  /* SECTION */
+  .section { margin-bottom: 2rem; }
+  .section-title {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem;
+    text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted);
+    margin-bottom: 0.85rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+
+  /* CHARTS */
+  .chart-wrap {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.25rem; height: 280px;
+  }
+  .period-tabs { display: flex; gap: 0.4rem; margin-bottom: 1rem; }
+  .period-tab {
+    padding: 0.3rem 0.7rem; border-radius: 6px; border: 1px solid var(--border);
+    background: transparent; color: var(--muted); cursor: pointer; font-size: 0.75rem;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .period-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* TABLES */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th {
+    background: var(--surface); padding: 0.6rem 0.9rem; text-align: left;
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  td { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--border); }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* RUBROS TABLE */
+  .rubros-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 0.75rem; margin-top: 0.75rem;
+  }
+  .rubro-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 1rem;
+  }
+  .rubro-card .rubro-name { font-size: 0.82rem; font-weight: 600; margin-bottom: 0.4rem; }
+  .rubro-card .rubro-pct { font-family: 'IBM Plex Mono', monospace; font-size: 1.1rem; font-weight: 700; }
+
+  /* GRID */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  @media (max-width: 700px) {
+    .grid2 { grid-template-columns: 1fr; }
+    .main-nav { flex-direction: column; }
+  }
+
+  /* GLOBAL PANEL */
+  #panel-global { margin-bottom: 2rem; }
+
+  /* BADGE */
+  .badge-carta {
+    display: inline-block; padding: 0.15rem 0.45rem; border-radius: 4px;
+    font-size: 0.68rem; font-family: 'IBM Plex Mono', monospace;
+  }
+
+  footer {
+    text-align: center; padding: 2rem; color: var(--muted);
+    font-size: 0.72rem; border-top: 1px solid var(--border);
+    font-family: 'IBM Plex Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🎸 ROCK & FELLER'S PRICE TRACKER</h1>
+    <div class="tagline">Orono · Alto Rosario · Savoy — Restaurante · Cafetería · Vinos · Cocktails</div>
+  </div>
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--muted)">
+    Actualizado: 03/03/2026 13:40
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- HERO STATS -->
+  <div class="hero" style="margin-top:1rem">
+    <div class="stat-card">
+      <div class="label">Variación Global Hoy</div>
+      <div class="value" style="color:#888">—</div>
+      <div class="sub">1387 items · 3 locales</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Variación 30 días</div>
+      <div class="value" style="color:#888">—</div>
+    </div>
+    
+        <div class="stat-card">
+          <div class="label">🎸 Orono</div>
+          <div class="value" style="color:#888">—</div>
+          <div class="sub">463 items hoy</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">🏬 Alto Rosario</div>
+          <div class="value" style="color:#888">—</div>
+          <div class="sub">462 items hoy</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">✨ Savoy</div>
+          <div class="value" style="color:#888">—</div>
+          <div class="sub">462 items hoy</div>
+        </div>
+  </div>
+
+  <!-- NAVEGACION PRINCIPAL: GLOBAL + LOCALES -->
+  <div class="main-nav" style="margin-bottom:0">
+    <button class="local-tab active" onclick="cambiarPanel('global', this)" style="background:var(--accent);color:#fff">🌐 Global</button>
+    <button class="local-tab active" onclick="cambiarLocal('Orono', this)">🎸 Orono</button>
+<button class="local-tab " onclick="cambiarLocal('Alto Rosario', this)">🏬 Alto Rosario</button>
+<button class="local-tab " onclick="cambiarLocal('Savoy', this)">✨ Savoy</button>
+
+  </div>
+  <div style="height:1.5rem"></div>
+
+  <!-- PANEL GLOBAL -->
+  <div id="panel-global" class="local-panel active">
+
+    <div class="section">
+      <div class="section-title">📈 Evolución de precios globales</div>
+      <div class="period-tabs" id="period-global">
+        <button class="period-tab active" onclick="cambiarPeriodoGlobal('7d',this)">7d</button>
+        <button class="period-tab" onclick="cambiarPeriodoGlobal('30d',this)">30d</button>
+        <button class="period-tab" onclick="cambiarPeriodoGlobal('6m',this)">6m</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chartGlobal"></canvas></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">📊 Comparativo entre locales</div>
+      <div class="period-tabs" id="period-locales">
+        <button class="period-tab active" onclick="cambiarPeriodoLocales('7d',this)">7d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocales('30d',this)">30d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocales('6m',this)">6m</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chartLocales"></canvas></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">📊 Comparativo por carta</div>
+      <div class="chart-wrap"><canvas id="chartCartas"></canvas></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🔄 Precios entre locales — productos comunes</div>
+      <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.75rem">Solo productos que aparecen en más de un local</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Orono</th>
+              <th>Alto Rosario</th>
+              <th>Savoy</th>
+              <th>Dif. max</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-comp">
+            <tr>
+          <td><div style="font-size:0.85rem">Absolut</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · VODKA</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,700</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+19.4%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Absolut Caipiroska</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · ABSOLUT  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,100</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+12.7%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Absolut Pears Breeze</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · ABSOLUT  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,200</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,200</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,200</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+13.9%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Agua de Maracuyá y Lima</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · BEBIDAS SIN ALCOHOL</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$10,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$11,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$11,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+5.5%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Aguas Minerales</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · BEBIDAS SIN ALCOHOL</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,700</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,700</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+5.7%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Ala Colorada Cabernet Franc</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · VIÑA LAS PERDICES</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$36,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$36,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$36,000</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Alamos Chardonnay</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · BODEGA CATENA ZAPATA</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$17,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$19,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$19,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+11.4%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Alamos Malbec Reserva</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · BODEGA CATENA ZAPATA</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$21,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$24,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$24,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+14.3%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Alma Mora Malbec</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · FINCA LAS MORAS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$14,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$16,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$16,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+13.8%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Alma Mora Syrah Rosado</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · FINCA LAS MORAS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$14,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$16,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$16,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+13.8%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Amaretto Di Saronno</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · LICORES</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,700</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$4,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$4,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+21.6%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">American  Cheesecake</div><div style="font-size:0.7rem;color:var(--muted)">Cafeteria · CHEESECAKES</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">American Cheesecake</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · CHEESECAKE & TORTAS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">American Nutella</div><div style="font-size:0.7rem;color:var(--muted)">Cafeteria · CAFETERÍA ESPECIAL</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,200</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,700</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,700</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+8.1%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Americano</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · APERITIVOS & BITTERS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$5,600</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,600</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,600</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+17.9%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Amy Winehouse</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · THE R&F HALL OF  FAME</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+21.5%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Angelica Cabernet Sauvignon Alta</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · BODEGA CATENA ZAPATA</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$55,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$59,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$59,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+7.3%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Angélica Zapata Malbec Alta</div><div style="font-size:0.7rem;color:var(--muted)">Vinos y Espumantes · BODEGA CATENA ZAPATA</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$75,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$75,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$75,000</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Aperitivo Ejecutivo</div><div style="font-size:0.7rem;color:var(--muted)">Cafeteria · RECOMENDADOS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$4,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,900</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+15.4%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Aperol Spritz</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · SPRITZER  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,100</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+23.0%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Apple  Pudding</div><div style="font-size:0.7rem;color:var(--muted)">Cafeteria · POSTRES</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Apple Pudding</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · POSTRES & HELADOS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Ardbeg 10 Años</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · SINGLE MALT</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$27,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$29,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$29,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+7.4%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Arnold Palmer</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · BEBIDAS SIN ALCOHOL</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,700</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$3,700</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+5.7%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Avocado & Scrambled Egg Bowl</div><div style="font-size:0.7rem;color:var(--muted)">Cafeteria · RECOMENDADOS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">BBQ Ribs</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · CARNES & PESCADOS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$33,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$33,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$33,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">BBQ Ribs con Papa Rellena (sin TACC)</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · SIN TACC</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$31,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$31,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$31,900</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+1.3%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Baileys</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · LICORES</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$4,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+32.7%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Ballantine´s</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · SCOTCH WHISKY</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$5,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+35.6%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Beef Ribs</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · CARNES & PESCADOS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$32,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$32,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$32,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Beefeater Tonic</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · THE GIN  COLLECTION</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,200</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+18.1%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Belvedere</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · VODKA</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$15,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$15,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+11.1%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Belvedere Cucumber Spritz</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · SPRITZER  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$11,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+18.2%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Belvedere Mint Spritz</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · SPRITZER  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$11,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$13,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+17.4%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Berry Spritz</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · SPRITZER  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,600</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$8,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+21.2%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Big  Apple</div><div style="font-size:0.7rem;color:var(--muted)">Cafeteria · TORTAS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$12,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$12,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$12,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Big Apple</div><div style="font-size:0.7rem;color:var(--muted)">Restaurante · CHEESECAKE & TORTAS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$12,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$12,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$12,900</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Bitter Apple</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · BRANCA  COCKTAILS</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,300</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,300</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,300</td>
+          <td><span style="color:#64748b;font-size:0.75rem">igual</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Blu Gin Tonic</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · THE GIN  COLLECTION</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$6,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,500</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$7,500</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+15.4%</span></td>
+        </tr><tr>
+          <td><div style="font-size:0.85rem">Bombay Sapphire</div><div style="font-size:0.7rem;color:var(--muted)">Cocktails · GIN</div></td>
+          <td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$9,900</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$11,000</td><td style="font-family:'IBM Plex Mono',monospace;font-size:0.82rem">$11,000</td>
+          <td><span style="color:#f59e0b;font-size:0.75rem">+11.1%</span></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🏆 Rankings globales</div>
+      <div class="period-tabs" id="rank-tabs-global">
+        <button class="period-tab active" onclick="mostrarRankingGlobal('dia',this)">Hoy</button>
+        <button class="period-tab" onclick="mostrarRankingGlobal('7d',this)">7 días</button>
+        <button class="period-tab" onclick="mostrarRankingGlobal('mes',this)">30 días</button>
+      </div>
+      <div class="grid2" style="margin-top:1rem">
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">🔥 Más subieron</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Local</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-sube-global"></tbody></table>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">📉 Más bajaron</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Local</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-baja-global"></tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PANELES POR LOCAL -->
+  
+  <div id="panel-Orono" class="local-panel">
+
+    <div class="section">
+      <div class="section-title">🎸 Orono — Evolución de precios</div>
+      <div class="period-tabs">
+        <button class="period-tab active" onclick="cambiarPeriodoLocal('Orono','7d',this)">7d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocal('Orono','30d',this)">30d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocal('Orono','6m',this)">6m</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-Orono"></canvas></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">📋 Cartas de Orono</div>
+      <div class="carta-nav" id="carta-nav-Orono">
+        <button class="carta-tab active" onclick="cambiarCarta('Orono','restaurante',this)">🍽️ Restaurante</button>
+<button class="carta-tab " onclick="cambiarCarta('Orono','cafeteria',this)">☕ Cafetería</button>
+<button class="carta-tab " onclick="cambiarCarta('Orono','vinos-y-espumantes',this)">🍷 Vinos y Espumantes</button>
+<button class="carta-tab " onclick="cambiarCarta('Orono','cocktails',this)">🍸 Cocktails</button>
+
+      </div>
+      
+      <div class="carta-panel active" id="carta-Orono-restaurante">
+        <div class="rubros-grid" id="rubros-Orono-restaurante">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Orono-cafeteria">
+        <div class="rubros-grid" id="rubros-Orono-cafeteria">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Orono-vinos-y-espumantes">
+        <div class="rubros-grid" id="rubros-Orono-vinos-y-espumantes">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Orono-cocktails">
+        <div class="rubros-grid" id="rubros-Orono-cocktails">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🏆 Rankings de Orono</div>
+      <div class="grid2">
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">🔥 Más subieron hoy</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Carta</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-Orono-sube"></tbody></table>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">📉 Más bajaron hoy</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Carta</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-Orono-baja"></tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div id="panel-Alto-Rosario" class="local-panel">
+
+    <div class="section">
+      <div class="section-title">🏬 Alto Rosario — Evolución de precios</div>
+      <div class="period-tabs">
+        <button class="period-tab active" onclick="cambiarPeriodoLocal('Alto Rosario','7d',this)">7d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocal('Alto Rosario','30d',this)">30d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocal('Alto Rosario','6m',this)">6m</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-Alto-Rosario"></canvas></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">📋 Cartas de Alto Rosario</div>
+      <div class="carta-nav" id="carta-nav-Alto-Rosario">
+        <button class="carta-tab active" onclick="cambiarCarta('Alto Rosario','restaurante',this)">🍽️ Restaurante</button>
+<button class="carta-tab " onclick="cambiarCarta('Alto Rosario','cafeteria',this)">☕ Cafetería</button>
+<button class="carta-tab " onclick="cambiarCarta('Alto Rosario','vinos-y-espumantes',this)">🍷 Vinos y Espumantes</button>
+<button class="carta-tab " onclick="cambiarCarta('Alto Rosario','cocktails',this)">🍸 Cocktails</button>
+
+      </div>
+      
+      <div class="carta-panel active" id="carta-Alto-Rosario-restaurante">
+        <div class="rubros-grid" id="rubros-Alto-Rosario-restaurante">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Alto-Rosario-cafeteria">
+        <div class="rubros-grid" id="rubros-Alto-Rosario-cafeteria">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Alto-Rosario-vinos-y-espumantes">
+        <div class="rubros-grid" id="rubros-Alto-Rosario-vinos-y-espumantes">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Alto-Rosario-cocktails">
+        <div class="rubros-grid" id="rubros-Alto-Rosario-cocktails">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🏆 Rankings de Alto Rosario</div>
+      <div class="grid2">
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">🔥 Más subieron hoy</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Carta</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-Alto-Rosario-sube"></tbody></table>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">📉 Más bajaron hoy</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Carta</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-Alto-Rosario-baja"></tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div id="panel-Savoy" class="local-panel">
+
+    <div class="section">
+      <div class="section-title">✨ Savoy — Evolución de precios</div>
+      <div class="period-tabs">
+        <button class="period-tab active" onclick="cambiarPeriodoLocal('Savoy','7d',this)">7d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocal('Savoy','30d',this)">30d</button>
+        <button class="period-tab" onclick="cambiarPeriodoLocal('Savoy','6m',this)">6m</button>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-Savoy"></canvas></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">📋 Cartas de Savoy</div>
+      <div class="carta-nav" id="carta-nav-Savoy">
+        <button class="carta-tab active" onclick="cambiarCarta('Savoy','restaurante',this)">🍽️ Restaurante</button>
+<button class="carta-tab " onclick="cambiarCarta('Savoy','cafeteria',this)">☕ Cafetería</button>
+<button class="carta-tab " onclick="cambiarCarta('Savoy','vinos-y-espumantes',this)">🍷 Vinos y Espumantes</button>
+<button class="carta-tab " onclick="cambiarCarta('Savoy','cocktails',this)">🍸 Cocktails</button>
+
+      </div>
+      
+      <div class="carta-panel active" id="carta-Savoy-restaurante">
+        <div class="rubros-grid" id="rubros-Savoy-restaurante">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Savoy-cafeteria">
+        <div class="rubros-grid" id="rubros-Savoy-cafeteria">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Savoy-vinos-y-espumantes">
+        <div class="rubros-grid" id="rubros-Savoy-vinos-y-espumantes">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+      <div class="carta-panel " id="carta-Savoy-cocktails">
+        <div class="rubros-grid" id="rubros-Savoy-cocktails">
+          <div style="color:var(--muted);font-size:0.82rem;padding:1rem">Cargando datos...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🏆 Rankings de Savoy</div>
+      <div class="grid2">
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">🔥 Más subieron hoy</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Carta</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-Savoy-sube"></tbody></table>
+          </div>
+        </div>
+        <div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem">📉 Más bajaron hoy</div>
+          <div class="table-wrap">
+            <table><thead><tr><th>#</th><th>Producto</th><th>Carta</th><th>Var %</th><th>Precio</th></tr></thead><tbody id="rank-Savoy-baja"></tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+
+</div>
+
+<footer>
+  Datos de rockandfellers.com.ar via Livewire · Locales: Orono · Alto Rosario · Savoy<br>
+  RFBOT · Actualización automática diaria via GitHub Actions
+</footer>
+
+<script>
+const GRAFICOS = {"7d": {"total": [], "por_local": {"Orono": [], "Alto Rosario": [], "Savoy": []}, "por_carta": {"Restaurante": [], "Cafeteria": [], "Vinos y Espumantes": [], "Cocktails": []}}, "30d": {"total": [], "por_local": {"Orono": [], "Alto Rosario": [], "Savoy": []}, "por_carta": {"Restaurante": [], "Cafeteria": [], "Vinos y Espumantes": [], "Cocktails": []}}, "6m": {"total": [], "por_local": {"Orono": [], "Alto Rosario": [], "Savoy": []}, "por_carta": {"Restaurante": [], "Cafeteria": [], "Vinos y Espumantes": [], "Cocktails": []}}};
+const RANK_DIA = [];
+const RANK_7D  = [];
+const RANK_MES = [];
+const RANK_LOCAL = {"Orono": [], "Alto Rosario": [], "Savoy": []};
+const LOCALES_DATA = {"Orono": {"total_productos": 463, "variacion_dia": null, "cartas": {"restaurante": {"label": "Restaurante", "total_productos": 135, "variacion_dia": null, "rubros": []}, "cafeteria": {"label": "Cafeteria", "total_productos": 57, "variacion_dia": null, "rubros": []}, "vinos-y-espumantes": {"label": "Vinos y Espumantes", "total_productos": 96, "variacion_dia": null, "rubros": []}, "cocktails": {"label": "Cocktails", "total_productos": 175, "variacion_dia": null, "rubros": []}}}, "Alto Rosario": {"total_productos": 462, "variacion_dia": null, "cartas": {"restaurante": {"label": "Restaurante", "total_productos": 135, "variacion_dia": null, "rubros": []}, "cafeteria": {"label": "Cafeteria", "total_productos": 56, "variacion_dia": null, "rubros": []}, "vinos-y-espumantes": {"label": "Vinos y Espumantes", "total_productos": 96, "variacion_dia": null, "rubros": []}, "cocktails": {"label": "Cocktails", "total_productos": 175, "variacion_dia": null, "rubros": []}}}, "Savoy": {"total_productos": 462, "variacion_dia": null, "cartas": {"restaurante": {"label": "Restaurante", "total_productos": 135, "variacion_dia": null, "rubros": []}, "cafeteria": {"label": "Cafeteria", "total_productos": 56, "variacion_dia": null, "rubros": []}, "vinos-y-espumantes": {"label": "Vinos y Espumantes", "total_productos": 96, "variacion_dia": null, "rubros": []}, "cocktails": {"label": "Cocktails", "total_productos": 175, "variacion_dia": null, "rubros": []}}}};
+const CARTAS_COLORS = {"Restaurante":"#ef4444","Cafeteria":"#f59e0b","Vinos y Espumantes":"#8b5cf6","Cocktails":"#0ea5e9"};
+
+let charts = {};
+
+// ── PANEL SWITCHING ─────────────────────────────────────────────────────────
+function cambiarPanel(id, btn) {
+  document.querySelectorAll('.local-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.local-tab').forEach(t => {
+    t.classList.remove('active');
+    t.style.background = '';
+    t.style.color = '';
+  });
+  document.getElementById('panel-' + id.replace(/ /g,'-')).classList.add('active');
+  btn.classList.add('active');
+  btn.style.background = 'var(--accent)';
+  btn.style.color = '#fff';
+  
+  // Init charts for this panel
+  if (id === 'global') {
+    renderChartGlobal('7d');
+    renderChartLocales('7d');
+    renderChartCartas('7d');
+    mostrarRankingGlobal('dia', document.querySelector('#rank-tabs-global .period-tab'));
+  } else {
+    renderChartLocal(id, '7d');
+    renderRankingLocal(id);
+    renderRubros(id);
+  }
+}
+
+function cambiarLocal(loc, btn) {
+  cambiarPanel(loc, btn);
+}
+
+// ── CHARTS GLOBAL ────────────────────────────────────────────────────────────
+function renderChartGlobal(periodo) {
+  const datos = GRAFICOS[periodo]?.total || [];
+  if (charts.global) charts.global.destroy();
+  const ctx = document.getElementById('chartGlobal').getContext('2d');
+  charts.global = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: datos.map(d => d.fecha),
+      datasets: [{ label: 'Total', data: datos.map(d => d.pct),
+        borderColor: '#0ea5e9', backgroundColor: 'rgba(14,165,233,0.06)',
+        borderWidth: 2, pointRadius: datos.length > 60 ? 0 : 2, tension: 0.3, fill: true }]
+    },
+    options: chartOpts()
+  });
+}
+
+function cambiarPeriodoGlobal(p, btn) {
+  setActive('#period-global', btn);
+  renderChartGlobal(p);
+}
+
+// ── CHART LOCALES ─────────────────────────────────────────────────────────────
+const LOCAL_COLORS = {"Orono":"#0ea5e9","Alto Rosario":"#f59e0b","Savoy":"#22c55e"};
+
+function renderChartLocales(periodo) {
+  const por_local = GRAFICOS[periodo]?.por_local || {};
+  if (charts.locales) charts.locales.destroy();
+  const ctx = document.getElementById('chartLocales').getContext('2d');
+  const datasets = Object.entries(por_local).map(([loc, datos]) => ({
+    label: loc,
+    data: datos.map(d => ({x: d.fecha, y: d.pct})),
+    borderColor: LOCAL_COLORS[loc] || '#888',
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    pointRadius: datos.length > 60 ? 0 : 2,
+    tension: 0.3
+  }));
+  const allDates = Object.values(por_local).flat().map(d => d.fecha).filter((v,i,a) => a.indexOf(v)===i).sort();
+  charts.locales = new Chart(ctx, {
+    type: 'line',
+    data: { labels: allDates, datasets },
+    options: chartOpts(true)
+  });
+}
+
+function cambiarPeriodoLocales(p, btn) {
+  setActive('#period-locales', btn);
+  renderChartLocales(p);
+}
+
+// ── CHART CARTAS ──────────────────────────────────────────────────────────────
+function renderChartCartas(periodo) {
+  const por_carta = GRAFICOS[periodo]?.por_carta || {};
+  if (charts.cartas) charts.cartas.destroy();
+  const ctx = document.getElementById('chartCartas').getContext('2d');
+  const datasets = Object.entries(por_carta).map(([carta, datos]) => ({
+    label: carta,
+    data: datos.map(d => ({x: d.fecha, y: d.pct})),
+    borderColor: CARTAS_COLORS[carta] || '#888',
+    backgroundColor: 'transparent',
+    borderWidth: 2,
+    pointRadius: datos.length > 60 ? 0 : 2,
+    tension: 0.3
+  }));
+  const allDates = Object.values(por_carta).flat().map(d => d.fecha).filter((v,i,a) => a.indexOf(v)===i).sort();
+  charts.cartas = new Chart(ctx, {
+    type: 'line',
+    data: { labels: allDates, datasets },
+    options: chartOpts(true)
+  });
+}
+
+// ── CHARTS POR LOCAL ──────────────────────────────────────────────────────────
+function renderChartLocal(loc, periodo) {
+  const cid = 'chart-' + loc.replace(/ /g,'-');
+  if (charts[cid]) charts[cid].destroy();
+  const datos = GRAFICOS[periodo]?.por_local?.[loc] || [];
+  const ctx = document.getElementById(cid)?.getContext('2d');
+  if (!ctx) return;
+  charts[cid] = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: datos.map(d => d.fecha),
+      datasets: [{ label: loc, data: datos.map(d => d.pct),
+        borderColor: LOCAL_COLORS[loc] || '#0ea5e9',
+        backgroundColor: 'rgba(14,165,233,0.06)',
+        borderWidth: 2, pointRadius: datos.length > 60 ? 0 : 2, tension: 0.3, fill: true }]
+    },
+    options: chartOpts()
+  });
+}
+
+function cambiarPeriodoLocal(loc, p, btn) {
+  const nav = btn.closest('.period-tabs');
+  nav.querySelectorAll('.period-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  renderChartLocal(loc, p);
+}
+
+// ── RUBROS POR CARTA ──────────────────────────────────────────────────────────
+function renderRubros(loc) {
+  const locData = LOCALES_DATA[loc];
+  if (!locData) return;
+  for (const [cartaKey, cartaData] of Object.entries(locData.cartas || {})) {
+    const containerId = 'rubros-' + loc.replace(/ /g,'-') + '-' + cartaKey;
+    const container = document.getElementById(containerId);
+    if (!container) continue;
+    const rubros = cartaData.rubros || [];
+    if (!rubros.length) {
+      container.innerHTML = '<div style="color:var(--muted);font-size:0.82rem;padding:0.75rem">Sin datos de variación aún (se necesita al menos 2 días)</div>';
+      continue;
+    }
+    container.innerHTML = rubros.map(r => {
+      const c = r.variacion > 0 ? '#ef4444' : r.variacion < 0 ? '#22c55e' : '#888';
+      const signo = r.variacion > 0 ? '+' : '';
+      return `<div class="rubro-card">
+        <div class="rubro-name">${r.rubro}</div>
+        <div class="rubro-pct" style="color:${c}">${signo}${r.variacion?.toFixed(2)}%</div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-top:0.3rem">
+          ⬆ ${r.subieron} · ⬇ ${r.bajaron} · Total: ${r.total}
+        </div>
+      </div>`;
+    }).join('');
+  }
+}
+
+// ── CARTA SWITCHING ───────────────────────────────────────────────────────────
+function cambiarCarta(loc, cartaKey, btn) {
+  const locId = loc.replace(/ /g,'-');
+  document.querySelectorAll('#carta-nav-'+locId+' .carta-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('[id^="carta-'+locId+'"]').forEach(p => p.classList.remove('active'));
+  document.getElementById('carta-'+locId+'-'+cartaKey)?.classList.add('active');
+}
+
+// ── RANKINGS ─────────────────────────────────────────────────────────────────
+function mostrarRankingGlobal(p, btn) {
+  setActive('#rank-tabs-global', btn);
+  const data = p==='dia' ? RANK_DIA : p==='7d' ? RANK_7D : RANK_MES;
+  const sube = data.filter(x => (x.diff_pct||0) > 0).slice(0,12);
+  const baja = [...data].filter(x => (x.diff_pct||0) < 0).sort((a,b)=>a.diff_pct-b.diff_pct).slice(0,12);
+  renderRankingTable('rank-sube-global', sube, false, true);
+  renderRankingTable('rank-baja-global', baja, true, true);
+}
+
+function renderRankingLocal(loc) {
+  const data = RANK_LOCAL[loc] || [];
+  const sube = data.filter(x => (x.diff_pct||0) > 0).slice(0,10);
+  const baja = [...data].filter(x => (x.diff_pct||0) < 0).sort((a,b)=>a.diff_pct-b.diff_pct).slice(0,10);
+  const locId = loc.replace(/ /g,'-');
+  renderRankingTableCarta('rank-'+locId+'-sube', sube, false);
+  renderRankingTableCarta('rank-'+locId+'-baja', baja, true);
+}
+
+function renderRankingTable(id, data, esBaja, showLocal) {
+  const tb = document.getElementById(id);
+  if (!tb) return;
+  if (!data.length) { tb.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:1rem">Sin datos aún</td></tr>'; return; }
+  tb.innerHTML = data.map((p,i) => {
+    const color = esBaja ? '#22c55e' : '#ef4444';
+    const signo = p.diff_pct > 0 ? '+' : '';
+    const cartaColor = CARTAS_COLORS[p.carta] || '#888';
+    return `<tr>
+      <td style="color:var(--muted);font-size:0.72rem">${i+1}</td>
+      <td><div style="font-size:0.82rem">${(p.nombre||'').substring(0,28)}</div>
+          <div style="font-size:0.68rem;color:var(--muted)">${p.rubro||''}</div></td>
+      <td><span style="font-size:0.7rem;color:${cartaColor}">${p.local||''}</span></td>
+      <td style="color:${color};font-weight:700;font-family:'IBM Plex Mono',monospace">${signo}${p.diff_pct?.toFixed(1)}%</td>
+      <td style="font-family:'IBM Plex Mono',monospace;font-size:0.8rem">${p.precio_hoy ? '$'+Number(p.precio_hoy).toLocaleString('es-AR') : '—'}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderRankingTableCarta(id, data, esBaja) {
+  const tb = document.getElementById(id);
+  if (!tb) return;
+  if (!data.length) { tb.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:1rem">Sin datos aún</td></tr>'; return; }
+  tb.innerHTML = data.map((p,i) => {
+    const color = esBaja ? '#22c55e' : '#ef4444';
+    const signo = p.diff_pct > 0 ? '+' : '';
+    const cartaColor = CARTAS_COLORS[p.carta] || '#888';
+    return `<tr>
+      <td style="color:var(--muted);font-size:0.72rem">${i+1}</td>
+      <td><div style="font-size:0.82rem">${(p.nombre||'').substring(0,28)}</div>
+          <div style="font-size:0.68rem;color:var(--muted)">${p.rubro||''}</div></td>
+      <td><span style="font-size:0.7rem;color:${cartaColor}">${p.carta||''}</span></td>
+      <td style="color:${color};font-weight:700;font-family:'IBM Plex Mono',monospace">${signo}${p.diff_pct?.toFixed(1)}%</td>
+      <td style="font-family:'IBM Plex Mono',monospace;font-size:0.8rem">${p.precio_hoy ? '$'+Number(p.precio_hoy).toLocaleString('es-AR') : '—'}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ── UTILS ─────────────────────────────────────────────────────────────────────
+function setActive(selector, btn) {
+  document.querySelectorAll(selector + ' .period-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function chartOpts(legend=false) {
+  return {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: legend, labels: { color: '#94a3b8', font: { size: 11 } } } },
+    scales: {
+      x: { ticks: { color: '#64748b', maxTicksLimit: 8 }, grid: { color: '#1e2130' } },
+      y: {
+        ticks: { color: '#64748b', callback: v => (v>0?'+':'')+v.toFixed(1)+'%' },
+        grid: { color: '#1e2130' },
+        afterDataLimits: axis => {
+          if (axis.min > 0) axis.min = 0;
+          if (axis.max < 0) axis.max = 0;
+        }
+      }
+    }
+  };
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+renderChartGlobal('7d');
+renderChartLocales('7d');
+renderChartCartas('7d');
+mostrarRankingGlobal('dia', document.querySelector('#rank-tabs-global .period-tab'));
+</script>
+</body>
+</html>

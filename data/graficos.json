@@ -1,0 +1,44 @@
+{
+  "7d": {
+    "total": [],
+    "por_local": {
+      "Orono": [],
+      "Alto Rosario": [],
+      "Savoy": []
+    },
+    "por_carta": {
+      "Restaurante": [],
+      "Cafeteria": [],
+      "Vinos y Espumantes": [],
+      "Cocktails": []
+    }
+  },
+  "30d": {
+    "total": [],
+    "por_local": {
+      "Orono": [],
+      "Alto Rosario": [],
+      "Savoy": []
+    },
+    "por_carta": {
+      "Restaurante": [],
+      "Cafeteria": [],
+      "Vinos y Espumantes": [],
+      "Cocktails": []
+    }
+  },
+  "6m": {
+    "total": [],
+    "por_local": {
+      "Orono": [],
+      "Alto Rosario": [],
+      "Savoy": []
+    },
+    "por_carta": {
+      "Restaurante": [],
+      "Cafeteria": [],
+      "Vinos y Espumantes": [],
+      "Cocktails": []
+    }
+  }
+}
