@@ -13,16 +13,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests beautifulsoup4 pandas openpyxl matplotlib seaborn
-      - run: python rf.py
-      - run: python analizar_precios.py
-      - run: python generar_web.py
-      - run: |
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4 pandas
+
+      - name: Scraping multi-local
+        run: python rf.py
+
+      - name: Analizar precios
+        run: python analizar_precios.py
+
+      - name: Generar web
+        run: python generar_web.py
+
+      - name: Commit y push
+        run: |
           git config user.name  "rfbot"
           git config user.email "bot@rfbot.github.io"
-          git add data/ docs/ rockandfellers_precios.csv || true
-          git diff --cached --quiet || git commit -m "🍔 Update $(date +'%Y-%m-%d')"
+          git add -A
+          git diff --cached --quiet || git commit -m "Update $(date +'%Y-%m-%d')"
           git push
