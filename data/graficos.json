@@ -1,44 +1,260 @@
 {
   "7d": {
-    "total": [],
+    "total": [
+      {
+        "fecha": "2026-03-03",
+        "pct": 0.0
+      },
+      {
+        "fecha": "2026-03-04",
+        "pct": 0.0
+      }
+    ],
     "por_local": {
-      "Orono": [],
-      "Alto Rosario": [],
-      "Savoy": []
+      "Orono": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Alto Rosario": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Savoy": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ]
     },
     "por_carta": {
-      "Restaurante": [],
-      "Cafeteria": [],
-      "Vinos y Espumantes": [],
-      "Cocktails": []
+      "Restaurante": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Cafeteria": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Vinos y Espumantes": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Cocktails": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ]
     }
   },
   "30d": {
-    "total": [],
+    "total": [
+      {
+        "fecha": "2026-03-03",
+        "pct": 0.0
+      },
+      {
+        "fecha": "2026-03-04",
+        "pct": 0.0
+      }
+    ],
     "por_local": {
-      "Orono": [],
-      "Alto Rosario": [],
-      "Savoy": []
+      "Orono": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Alto Rosario": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Savoy": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ]
     },
     "por_carta": {
-      "Restaurante": [],
-      "Cafeteria": [],
-      "Vinos y Espumantes": [],
-      "Cocktails": []
+      "Restaurante": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Cafeteria": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Vinos y Espumantes": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Cocktails": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ]
     }
   },
   "6m": {
-    "total": [],
+    "total": [
+      {
+        "fecha": "2026-03-03",
+        "pct": 0.0
+      },
+      {
+        "fecha": "2026-03-04",
+        "pct": 0.0
+      }
+    ],
     "por_local": {
-      "Orono": [],
-      "Alto Rosario": [],
-      "Savoy": []
+      "Orono": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Alto Rosario": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Savoy": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ]
     },
     "por_carta": {
-      "Restaurante": [],
-      "Cafeteria": [],
-      "Vinos y Espumantes": [],
-      "Cocktails": []
+      "Restaurante": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Cafeteria": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Vinos y Espumantes": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ],
+      "Cocktails": [
+        {
+          "fecha": "2026-03-03",
+          "pct": 0.0
+        },
+        {
+          "fecha": "2026-03-04",
+          "pct": 0.0
+        }
+      ]
     }
   }
 }
