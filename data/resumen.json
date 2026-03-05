@@ -5,7 +5,7 @@
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.03,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
@@ -171,7 +171,7 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 96,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.13,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
@@ -182,8 +182,8 @@
             },
             {
               "rubro": "BODEGA 33 SUR",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 4.17,
+              "subieron": 1,
               "bajaron": 0,
               "total": 3
             },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-04"
+  "fecha_actualizacion": "2026-03-05"
 }
