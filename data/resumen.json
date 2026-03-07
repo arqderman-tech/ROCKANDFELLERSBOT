@@ -1,16 +1,16 @@
 {
-  "variacion_dia": 3.94,
+  "variacion_dia": 3.99,
   "variacion_mes": null,
   "total_productos": 1387,
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.02,
+      "variacion_dia": 0.04,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.08,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -63,8 +63,8 @@
             },
             {
               "rubro": "PASTAS",
-              "variacion": 0.93,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 11
             },
@@ -276,7 +276,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 175,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.11,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -357,8 +357,8 @@
             },
             {
               "rubro": "MARTINI  BAR",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 4.0,
+              "subieron": 1,
               "bajaron": 0,
               "total": 5
             },
@@ -452,12 +452,12 @@
     },
     "Alto Rosario": {
       "total_productos": 462,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.12,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.4,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -531,8 +531,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 53.33,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-06"
+  "fecha_actualizacion": "2026-03-07"
 }

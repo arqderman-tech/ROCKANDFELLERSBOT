@@ -1,10 +1,18 @@
 [
   {
-    "nombre": "Chicken Spaghetti Bellagio",
-    "local": "Orono",
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Alto Rosario",
     "carta": "Restaurante",
-    "rubro": "PASTAS",
-    "diff_pct": 10.21,
-    "precio_hoy": 25900.0
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 53.33,
+    "precio_hoy": 29900.0
+  },
+  {
+    "nombre": "Espresso Borghetti",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "MARTINI  BAR",
+    "diff_pct": 20.0,
+    "precio_hoy": 6000.0
   }
 ]
