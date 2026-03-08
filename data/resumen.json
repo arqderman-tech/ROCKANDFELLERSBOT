@@ -1,11 +1,11 @@
 {
-  "variacion_dia": 3.99,
+  "variacion_dia": 3.86,
   "variacion_mes": null,
   "total_productos": 1387,
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.04,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
@@ -276,7 +276,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 175,
-          "variacion_dia": 0.11,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -357,8 +357,8 @@
             },
             {
               "rubro": "MARTINI  BAR",
-              "variacion": 4.0,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 5
             },
@@ -452,12 +452,12 @@
     },
     "Alto Rosario": {
       "total_productos": 462,
-      "variacion_dia": 0.12,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.4,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -531,8 +531,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 53.33,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 1
             },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-07"
+  "fecha_actualizacion": "2026-03-08"
 }

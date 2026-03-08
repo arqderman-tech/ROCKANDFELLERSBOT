@@ -1,23 +1,5 @@
 {
-  "Orono": [
-    {
-      "nombre": "Espresso Borghetti",
-      "local": "Orono",
-      "carta": "Cocktails",
-      "rubro": "MARTINI  BAR",
-      "diff_pct": 20.0,
-      "precio_hoy": 6000.0
-    }
-  ],
-  "Alto Rosario": [
-    {
-      "nombre": "Sugerencia del Chef.-",
-      "local": "Alto Rosario",
-      "carta": "Restaurante",
-      "rubro": "SUGERENCIAS DEL CHEF",
-      "diff_pct": 53.33,
-      "precio_hoy": 29900.0
-    }
-  ],
+  "Orono": [],
+  "Alto Rosario": [],
   "Savoy": []
 }
