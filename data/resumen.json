@@ -1,16 +1,16 @@
 {
-  "variacion_dia": 3.86,
+  "variacion_dia": 3.9,
   "variacion_mes": null,
   "total_productos": 1387,
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.13,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.31,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -42,8 +42,8 @@
             },
             {
               "rubro": "ENSALADAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.58,
+              "subieron": 1,
               "bajaron": 0,
               "total": 11
             },
@@ -70,8 +70,8 @@
             },
             {
               "rubro": "POSTRES & HELADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.82,
+              "subieron": 2,
               "bajaron": 0,
               "total": 15
             },
@@ -98,15 +98,15 @@
             },
             {
               "rubro": "TEX-MEX",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.58,
+              "subieron": 2,
               "bajaron": 0,
               "total": 6
             },
             {
               "rubro": "WOKS & VEGGIE",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.54,
+              "subieron": 1,
               "bajaron": 0,
               "total": 5
             }
@@ -115,7 +115,7 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 57,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.29,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -147,15 +147,15 @@
             },
             {
               "rubro": "POSTRES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.37,
+              "subieron": 2,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "RECOMENDADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.43,
+              "subieron": 1,
               "bajaron": 0,
               "total": 10
             },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-08"
+  "fecha_actualizacion": "2026-03-09"
 }
