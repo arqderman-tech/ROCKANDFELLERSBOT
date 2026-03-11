@@ -16,6 +16,14 @@
     "precio_hoy": 6000.0
   },
   {
+    "nombre": "Jack Honey & Lemonade",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 13.45,
+    "precio_hoy": 13500.0
+  },
+  {
     "nombre": "Latitud 33° Sauvignon Blanc",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
@@ -40,18 +48,18 @@
     "precio_hoy": 29900.0
   },
   {
-    "nombre": "Tiramisú.",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 8.0,
-    "precio_hoy": 13500.0
-  },
-  {
     "nombre": "Tiramisú",
     "local": "Orono",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
+    "diff_pct": 8.0,
+    "precio_hoy": 13500.0
+  },
+  {
+    "nombre": "Tiramisú.",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "POSTRES",
     "diff_pct": 8.0,
     "precio_hoy": 13500.0
   },
@@ -64,10 +72,10 @@
     "precio_hoy": 27900.0
   },
   {
-    "nombre": "Ensalada de  frutas",
+    "nombre": "Ensalada de Frutas",
     "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
+    "carta": "Restaurante",
+    "rubro": "POSTRES & HELADOS",
     "diff_pct": 7.59,
     "precio_hoy": 8500.0
   },
@@ -80,10 +88,10 @@
     "precio_hoy": 8500.0
   },
   {
-    "nombre": "Ensalada de Frutas",
+    "nombre": "Ensalada de  frutas",
     "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
     "diff_pct": 7.59,
     "precio_hoy": 8500.0
   },
@@ -112,18 +120,18 @@
     "precio_hoy": 14500.0
   },
   {
-    "nombre": "Sweet Mix Combo.",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 4.32,
-    "precio_hoy": 14500.0
-  },
-  {
     "nombre": "Sweet Mix  Combo",
     "local": "Orono",
     "carta": "Cafeteria",
     "rubro": "RECOMENDADOS",
+    "diff_pct": 4.32,
+    "precio_hoy": 14500.0
+  },
+  {
+    "nombre": "Sweet Mix Combo.",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "POSTRES",
     "diff_pct": 4.32,
     "precio_hoy": 14500.0
   }

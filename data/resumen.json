@@ -5,12 +5,12 @@
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.05,
+      "variacion_dia": 0.03,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.06,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -70,8 +70,8 @@
             },
             {
               "rubro": "POSTRES & HELADOS",
-              "variacion": 0.51,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 15
             },
@@ -115,7 +115,7 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 57,
-          "variacion_dia": 0.27,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -147,15 +147,15 @@
             },
             {
               "rubro": "POSTRES",
-              "variacion": 0.84,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "RECOMENDADOS",
-              "variacion": 0.76,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 10
             },
@@ -276,7 +276,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 175,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.08,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -392,8 +392,8 @@
             },
             {
               "rubro": "SPECIAL  DRINKS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.03,
+              "subieron": 1,
               "bajaron": 0,
               "total": 13
             },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-10"
+  "fecha_actualizacion": "2026-03-11"
 }
