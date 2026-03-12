@@ -1,10 +1,26 @@
 [
   {
-    "nombre": "Jack Honey & Lemonade",
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Rock&Fit Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Corona.",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
-    "diff_pct": 13.45,
-    "precio_hoy": 13500.0
+    "rubro": "CHOPP & BEERS",
+    "diff_pct": 5.66,
+    "precio_hoy": 5600.0
   }
 ]

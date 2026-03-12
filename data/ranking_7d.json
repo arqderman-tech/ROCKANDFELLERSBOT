@@ -8,6 +8,22 @@
     "precio_hoy": 29900.0
   },
   {
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Rock&Fit Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
     "nombre": "Espresso Borghetti",
     "local": "Orono",
     "carta": "Cocktails",
@@ -22,14 +38,6 @@
     "rubro": "SPECIAL  DRINKS",
     "diff_pct": 13.45,
     "precio_hoy": 13500.0
-  },
-  {
-    "nombre": "Latitud 33° Sauvignon Blanc",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGA 33 SUR",
-    "diff_pct": 12.5,
-    "precio_hoy": 18000.0
   },
   {
     "nombre": "Chicken Spaghetti Bellagio",
@@ -80,18 +88,18 @@
     "precio_hoy": 8500.0
   },
   {
-    "nombre": "Ensalada  de Frutas",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 7.59,
-    "precio_hoy": 8500.0
-  },
-  {
     "nombre": "Ensalada de  frutas",
     "local": "Orono",
     "carta": "Cafeteria",
     "rubro": "RECOMENDADOS",
+    "diff_pct": 7.59,
+    "precio_hoy": 8500.0
+  },
+  {
+    "nombre": "Ensalada  de Frutas",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "POSTRES",
     "diff_pct": 7.59,
     "precio_hoy": 8500.0
   },
@@ -110,6 +118,14 @@
     "rubro": "ENSALADAS",
     "diff_pct": 6.43,
     "precio_hoy": 26500.0
+  },
+  {
+    "nombre": "Corona.",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CHOPP & BEERS",
+    "diff_pct": 5.66,
+    "precio_hoy": 5600.0
   },
   {
     "nombre": "Sweet Mix Combo",
