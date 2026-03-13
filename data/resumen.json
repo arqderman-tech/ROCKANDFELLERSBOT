@@ -1,11 +1,11 @@
 {
-  "variacion_dia": 3.92,
+  "variacion_dia": 3.91,
   "variacion_mes": null,
   "total_productos": 1387,
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.12,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
@@ -115,7 +115,7 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 57,
-          "variacion_dia": 0.41,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -154,8 +154,8 @@
             },
             {
               "rubro": "RECOMENDADOS",
-              "variacion": 2.35,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 10
             },
@@ -171,7 +171,7 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 96,
-          "variacion_dia": 0.28,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
@@ -231,8 +231,8 @@
             },
             {
               "rubro": "BODEGAS CHANDON",
-              "variacion": 2.27,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 12
             },
@@ -276,7 +276,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 175,
-          "variacion_dia": 0.03,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -301,8 +301,8 @@
             },
             {
               "rubro": "CHOPP & BEERS",
-              "variacion": 0.81,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 7
             },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-12"
+  "fecha_actualizacion": "2026-03-13"
 }
