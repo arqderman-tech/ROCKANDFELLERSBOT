@@ -1,7 +1,7 @@
 [
   {
     "producto": "Absolut",
-    "Orono": 6700.0,
+    "Orono": 8000.0,
     "Alto Rosario": 8000.0,
     "Savoy": 8000.0,
     "carta": "Cocktails",
@@ -9,7 +9,7 @@
   },
   {
     "producto": "Absolut Caipiroska",
-    "Orono": 7100.0,
+    "Orono": 8000.0,
     "Alto Rosario": 8000.0,
     "Savoy": 8000.0,
     "carta": "Cocktails",
@@ -17,7 +17,7 @@
   },
   {
     "producto": "Absolut Pears Breeze",
-    "Orono": 7200.0,
+    "Orono": 8200.0,
     "Alto Rosario": 8200.0,
     "Savoy": 8200.0,
     "carta": "Cocktails",
@@ -25,7 +25,7 @@
   },
   {
     "producto": "Agua de Maracuyá y Lima",
-    "Orono": 10900.0,
+    "Orono": 11500.0,
     "Alto Rosario": 11500.0,
     "Savoy": 11500.0,
     "carta": "Restaurante",
@@ -33,7 +33,7 @@
   },
   {
     "producto": "Aguas Minerales",
-    "Orono": 3500.0,
+    "Orono": 3700.0,
     "Alto Rosario": 3700.0,
     "Savoy": 3700.0,
     "carta": "Restaurante",
@@ -49,7 +49,7 @@
   },
   {
     "producto": "Alamos Chardonnay",
-    "Orono": 17500.0,
+    "Orono": 19500.0,
     "Alto Rosario": 19500.0,
     "Savoy": 19500.0,
     "carta": "Vinos y Espumantes",
@@ -57,7 +57,7 @@
   },
   {
     "producto": "Alamos Malbec Reserva",
-    "Orono": 21000.0,
+    "Orono": 24000.0,
     "Alto Rosario": 24000.0,
     "Savoy": 24000.0,
     "carta": "Vinos y Espumantes",
@@ -65,7 +65,7 @@
   },
   {
     "producto": "Alma Mora Malbec",
-    "Orono": 14500.0,
+    "Orono": 16500.0,
     "Alto Rosario": 16500.0,
     "Savoy": 16500.0,
     "carta": "Vinos y Espumantes",
@@ -73,7 +73,7 @@
   },
   {
     "producto": "Alma Mora Syrah Rosado",
-    "Orono": 14500.0,
+    "Orono": 16500.0,
     "Alto Rosario": 16500.0,
     "Savoy": 16500.0,
     "carta": "Vinos y Espumantes",
@@ -81,7 +81,7 @@
   },
   {
     "producto": "Amaretto Di Saronno",
-    "Orono": 3700.0,
+    "Orono": 4500.0,
     "Alto Rosario": 4500.0,
     "Savoy": 4500.0,
     "carta": "Cocktails",
@@ -105,7 +105,7 @@
   },
   {
     "producto": "American Nutella",
-    "Orono": 6200.0,
+    "Orono": 6700.0,
     "Alto Rosario": 6700.0,
     "Savoy": 6700.0,
     "carta": "Cafeteria",
@@ -113,7 +113,7 @@
   },
   {
     "producto": "Americano",
-    "Orono": 5600.0,
+    "Orono": 6600.0,
     "Alto Rosario": 6600.0,
     "Savoy": 6600.0,
     "carta": "Cocktails",
@@ -121,7 +121,7 @@
   },
   {
     "producto": "Amy Winehouse",
-    "Orono": 6500.0,
+    "Orono": 7900.0,
     "Alto Rosario": 7900.0,
     "Savoy": 7900.0,
     "carta": "Cocktails",
@@ -129,7 +129,7 @@
   },
   {
     "producto": "Angelica Cabernet Sauvignon Alta",
-    "Orono": 55000.0,
+    "Orono": 59000.0,
     "Alto Rosario": 59000.0,
     "Savoy": 59000.0,
     "carta": "Vinos y Espumantes",
@@ -145,7 +145,7 @@
   },
   {
     "producto": "Aperitivo Ejecutivo",
-    "Orono": 4500.0,
+    "Orono": 5000.0,
     "Alto Rosario": 3900.0,
     "Savoy": 3900.0,
     "carta": "Cafeteria",
@@ -153,7 +153,7 @@
   },
   {
     "producto": "Aperol Spritz",
-    "Orono": 6100.0,
+    "Orono": 7500.0,
     "Alto Rosario": 7500.0,
     "Savoy": 7500.0,
     "carta": "Cocktails",
@@ -177,7 +177,7 @@
   },
   {
     "producto": "Ardbeg 10 Años",
-    "Orono": 27000.0,
+    "Orono": 29000.0,
     "Alto Rosario": 29000.0,
     "Savoy": 29000.0,
     "carta": "Cocktails",
@@ -185,7 +185,7 @@
   },
   {
     "producto": "Arnold Palmer",
-    "Orono": 3500.0,
+    "Orono": 3700.0,
     "Alto Rosario": 3700.0,
     "Savoy": 3700.0,
     "carta": "Restaurante",
@@ -209,7 +209,7 @@
   },
   {
     "producto": "BBQ Ribs con Papa Rellena (sin TACC)",
-    "Orono": 31500.0,
+    "Orono": 31900.0,
     "Alto Rosario": 31900.0,
     "Savoy": 31900.0,
     "carta": "Restaurante",
@@ -217,7 +217,7 @@
   },
   {
     "producto": "Baileys",
-    "Orono": 4900.0,
+    "Orono": 6500.0,
     "Alto Rosario": 6500.0,
     "Savoy": 6500.0,
     "carta": "Cocktails",
@@ -225,7 +225,7 @@
   },
   {
     "producto": "Ballantine´s",
-    "Orono": 5900.0,
+    "Orono": 8000.0,
     "Alto Rosario": 8000.0,
     "Savoy": 8000.0,
     "carta": "Cocktails",
@@ -241,7 +241,7 @@
   },
   {
     "producto": "Beefeater Tonic",
-    "Orono": 7200.0,
+    "Orono": 8500.0,
     "Alto Rosario": 8500.0,
     "Savoy": 8500.0,
     "carta": "Cocktails",
@@ -249,7 +249,7 @@
   },
   {
     "producto": "Belvedere",
-    "Orono": 13500.0,
+    "Orono": 15000.0,
     "Alto Rosario": 15000.0,
     "Savoy": 15000.0,
     "carta": "Cocktails",
@@ -257,7 +257,7 @@
   },
   {
     "producto": "Belvedere Cucumber Spritz",
-    "Orono": 11000.0,
+    "Orono": 13000.0,
     "Alto Rosario": 13000.0,
     "Savoy": 13000.0,
     "carta": "Cocktails",
@@ -265,7 +265,7 @@
   },
   {
     "producto": "Belvedere Mint Spritz",
-    "Orono": 11500.0,
+    "Orono": 13500.0,
     "Alto Rosario": 13500.0,
     "Savoy": 13500.0,
     "carta": "Cocktails",
@@ -273,7 +273,7 @@
   },
   {
     "producto": "Berry Spritz",
-    "Orono": 6600.0,
+    "Orono": 8000.0,
     "Alto Rosario": 8000.0,
     "Savoy": 8000.0,
     "carta": "Cocktails",
@@ -305,7 +305,7 @@
   },
   {
     "producto": "Blu Gin Tonic",
-    "Orono": 6500.0,
+    "Orono": 7500.0,
     "Alto Rosario": 7500.0,
     "Savoy": 7500.0,
     "carta": "Cocktails",
@@ -313,7 +313,7 @@
   },
   {
     "producto": "Bombay Sapphire",
-    "Orono": 9900.0,
+    "Orono": 11000.0,
     "Alto Rosario": 11000.0,
     "Savoy": 11000.0,
     "carta": "Cocktails",
@@ -321,7 +321,7 @@
   },
   {
     "producto": "Bombay Tonic",
-    "Orono": 10500.0,
+    "Orono": 11500.0,
     "Alto Rosario": 11500.0,
     "Savoy": 11500.0,
     "carta": "Cocktails",
@@ -329,7 +329,7 @@
   },
   {
     "producto": "Bombay Tonic.",
-    "Orono": 10500.0,
+    "Orono": 11500.0,
     "Alto Rosario": 11500.0,
     "Savoy": 11500.0,
     "carta": "Cocktails",
@@ -337,7 +337,7 @@
   },
   {
     "producto": "Bondiolita de Cerdo",
-    "Orono": 27500.0,
+    "Orono": 28900.0,
     "Alto Rosario": 28900.0,
     "Savoy": 28900.0,
     "carta": "Restaurante",
@@ -345,7 +345,7 @@
   },
   {
     "producto": "Borghetti",
-    "Orono": 3200.0,
+    "Orono": 4500.0,
     "Alto Rosario": 4500.0,
     "Savoy": 4500.0,
     "carta": "Cocktails",
@@ -353,7 +353,7 @@
   },
   {
     "producto": "Bosque",
-    "Orono": 6600.0,
+    "Orono": 8500.0,
     "Alto Rosario": 8500.0,
     "Savoy": 8500.0,
     "carta": "Cocktails",
@@ -361,7 +361,7 @@
   },
   {
     "producto": "Boulevard 106",
-    "Orono": 5700.0,
+    "Orono": 6900.0,
     "Alto Rosario": 6900.0,
     "Savoy": 6900.0,
     "carta": "Cocktails",
@@ -369,7 +369,7 @@
   },
   {
     "producto": "Branca Smash",
-    "Orono": 5400.0,
+    "Orono": 6800.0,
     "Alto Rosario": 6800.0,
     "Savoy": 6800.0,
     "carta": "Cocktails",
@@ -377,7 +377,7 @@
   },
   {
     "producto": "Brancamenta Julep",
-    "Orono": 5300.0,
+    "Orono": 6400.0,
     "Alto Rosario": 6400.0,
     "Savoy": 6400.0,
     "carta": "Cocktails",
@@ -385,7 +385,7 @@
   },
   {
     "producto": "Brancamenta Shot",
-    "Orono": 3300.0,
+    "Orono": 3800.0,
     "Alto Rosario": 3800.0,
     "Savoy": 3800.0,
     "carta": "Cocktails",

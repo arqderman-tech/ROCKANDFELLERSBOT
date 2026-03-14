@@ -1,11 +1,107 @@
 [
   {
+    "nombre": "Grappa Candolini",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "LICORES",
+    "diff_pct": 53.85,
+    "precio_hoy": 6000.0
+  },
+  {
     "nombre": "Sugerencia del Chef.-",
-    "local": "Alto Rosario",
+    "local": "Orono",
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
     "diff_pct": 53.33,
     "precio_hoy": 29900.0
+  },
+  {
+    "nombre": "Borghetti",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "LICORES",
+    "diff_pct": 40.62,
+    "precio_hoy": 4500.0
+  },
+  {
+    "nombre": "Sambuca Oro Borghetti",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "LICORES",
+    "diff_pct": 40.62,
+    "precio_hoy": 4500.0
+  },
+  {
+    "nombre": "Ballantine´s",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SCOTCH WHISKY",
+    "diff_pct": 35.59,
+    "precio_hoy": 8000.0
+  },
+  {
+    "nombre": "Drambuie",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "LICORES",
+    "diff_pct": 33.33,
+    "precio_hoy": 6000.0
+  },
+  {
+    "nombre": "Baileys",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "LICORES",
+    "diff_pct": 32.65,
+    "precio_hoy": 6500.0
+  },
+  {
+    "nombre": "Copa de vino Altos del Plata",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BEBIDAS CON ALCOHOL",
+    "diff_pct": 31.11,
+    "precio_hoy": 5900.0
+  },
+  {
+    "nombre": "Tanqueray",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "GIN",
+    "diff_pct": 30.77,
+    "precio_hoy": 8500.0
+  },
+  {
+    "nombre": "Smirnoff",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "VODKA",
+    "diff_pct": 30.0,
+    "precio_hoy": 6500.0
+  },
+  {
+    "nombre": "Bosque",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "GIN",
+    "diff_pct": 28.79,
+    "precio_hoy": 8500.0
+  },
+  {
+    "nombre": "Johnnie Winter",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "THE R&F HALL OF  FAME",
+    "diff_pct": 27.78,
+    "precio_hoy": 11500.0
+  },
+  {
+    "nombre": "Cynar Spritz",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
   },
   {
     "nombre": "Chandon Extra Brut Mini",
@@ -16,6 +112,110 @@
     "precio_hoy": 7000.0
   },
   {
+    "nombre": "Cuba Libre",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Grant’s",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SCOTCH WHISKY",
+    "diff_pct": 26.67,
+    "precio_hoy": 9500.0
+  },
+  {
+    "nombre": "Branca Smash",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.93,
+    "precio_hoy": 6800.0
+  },
+  {
+    "nombre": "Dadá Berry Cocktail",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Fernet Branca",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Campari Orange",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Cynar Julep",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Strega Orange Tonic",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Fernet Branca.",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "BRANCA  COCKTAILS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Cumber Tonic",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "THE GIN  COLLECTION",
+    "diff_pct": 25.0,
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Italian Délice",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.0,
+    "precio_hoy": 6500.0
+  },
+  {
+    "nombre": "Promoción Paletas R&F",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "MENÚ KIDS",
+    "diff_pct": 25.0,
+    "precio_hoy": 2500.0
+  },
+  {
+    "nombre": "J&B",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SCOTCH WHISKY",
+    "diff_pct": 25.0,
+    "precio_hoy": 7500.0
+  },
+  {
     "nombre": "Rock&Fit Bowl",
     "local": "Orono",
     "carta": "Cafeteria",
@@ -24,123 +224,19 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Espresso Borghetti",
+    "nombre": "Chivas Regal 12 años",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "MARTINI  BAR",
-    "diff_pct": 20.0,
-    "precio_hoy": 6000.0
+    "rubro": "SCOTCH WHISKY",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
   },
   {
-    "nombre": "Jack Honey & Lemonade",
+    "nombre": "Daiquiri",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
-    "diff_pct": 13.45,
-    "precio_hoy": 13500.0
-  },
-  {
-    "nombre": "Red Hot Beef Quesadillas",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "TEX-MEX",
-    "diff_pct": 8.73,
-    "precio_hoy": 29900.0
-  },
-  {
-    "nombre": "Tiramisú",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
-    "diff_pct": 8.0,
-    "precio_hoy": 13500.0
-  },
-  {
-    "nombre": "Tiramisú.",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 8.0,
-    "precio_hoy": 13500.0
-  },
-  {
-    "nombre": "Wok de Lomo",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "WOKS & VEGGIE",
-    "diff_pct": 7.72,
-    "precio_hoy": 27900.0
-  },
-  {
-    "nombre": "Ensalada de Frutas",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
-    "diff_pct": 7.59,
-    "precio_hoy": 8500.0
-  },
-  {
-    "nombre": "Ensalada de  frutas",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 7.59,
-    "precio_hoy": 8500.0
-  },
-  {
-    "nombre": "Ensalada  de Frutas",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 7.59,
-    "precio_hoy": 8500.0
-  },
-  {
-    "nombre": "Fajitas Chidas Lomo",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "TEX-MEX",
-    "diff_pct": 6.76,
-    "precio_hoy": 39500.0
-  },
-  {
-    "nombre": "Caesar's Bellagio Salad",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "ENSALADAS",
-    "diff_pct": 6.43,
-    "precio_hoy": 26500.0
-  },
-  {
-    "nombre": "Corona.",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "CHOPP & BEERS",
-    "diff_pct": 5.66,
-    "precio_hoy": 5600.0
-  },
-  {
-    "nombre": "Sweet Mix Combo",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
-    "diff_pct": 4.32,
-    "precio_hoy": 14500.0
-  },
-  {
-    "nombre": "Sweet Mix  Combo",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 4.32,
-    "precio_hoy": 14500.0
-  },
-  {
-    "nombre": "Sweet Mix Combo.",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 4.32,
-    "precio_hoy": 14500.0
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 22.95,
+    "precio_hoy": 7500.0
   }
 ]

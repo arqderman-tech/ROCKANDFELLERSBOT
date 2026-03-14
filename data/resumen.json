@@ -1,112 +1,112 @@
 {
-  "variacion_dia": 3.91,
+  "variacion_dia": 6.91,
   "variacion_mes": null,
   "total_productos": 1387,
   "locales": {
     "Orono": {
       "total_productos": 463,
-      "variacion_dia": 0.0,
+      "variacion_dia": 9.19,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": 4.08,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.86,
+              "subieron": 14,
               "bajaron": 0,
               "total": 14
             },
             {
               "rubro": "CAFETERÍA CLÁSICA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 5.21,
+              "subieron": 11,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "CARNES & PESCADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.26,
+              "subieron": 7,
               "bajaron": 0,
               "total": 15
             },
             {
               "rubro": "CHEESECAKE & TORTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.38,
+              "subieron": 1,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "ENSALADAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.51,
+              "subieron": 6,
               "bajaron": 0,
               "total": 11
             },
             {
               "rubro": "ENTRADAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.49,
+              "subieron": 6,
               "bajaron": 0,
               "total": 16
             },
             {
               "rubro": "MENÚ KIDS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 10.03,
+              "subieron": 7,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "PASTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.48,
+              "subieron": 4,
               "bajaron": 0,
               "total": 11
             },
             {
               "rubro": "POSTRES & HELADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.74,
+              "subieron": 5,
               "bajaron": 0,
               "total": 15
             },
             {
               "rubro": "SIN TACC",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.35,
+              "subieron": 3,
               "bajaron": 0,
               "total": 3
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 53.33,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.72,
+              "subieron": 4,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "TEX-MEX",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.61,
+              "subieron": 3,
               "bajaron": 0,
               "total": 6
             },
             {
               "rubro": "WOKS & VEGGIE",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.45,
+              "subieron": 4,
               "bajaron": 0,
               "total": 5
             }
@@ -115,19 +115,19 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 57,
-          "variacion_dia": 0.0,
+          "variacion_dia": 4.86,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 5.21,
+              "subieron": 11,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "CAFETERÍA ESPECIAL",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.25,
+              "subieron": 6,
               "bajaron": 0,
               "total": 6
             },
@@ -140,29 +140,29 @@
             },
             {
               "rubro": "DESAYUNOS & MERIENDAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 11.5,
+              "subieron": 10,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "POSTRES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.93,
+              "subieron": 1,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "RECOMENDADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.76,
+              "subieron": 4,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "TORTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.48,
+              "subieron": 1,
               "bajaron": 0,
               "total": 8
             }
@@ -171,68 +171,68 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 96,
-          "variacion_dia": 0.0,
+          "variacion_dia": 7.94,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 26.78,
+              "subieron": 2,
               "bajaron": 0,
               "total": 2
             },
             {
               "rubro": "BODEGA 33 SUR",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 4.17,
+              "subieron": 1,
               "bajaron": 0,
               "total": 3
             },
             {
               "rubro": "BODEGA CATENA ZAPATA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.43,
+              "subieron": 10,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "BODEGA LA CELIA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.95,
+              "subieron": 4,
               "bajaron": 0,
               "total": 4
             },
             {
               "rubro": "BODEGA NIETO SENETINER",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 11.3,
+              "subieron": 10,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "BODEGA TERRAZAS DE LOS ANDES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.78,
+              "subieron": 7,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "BODEGA TRAPICHE",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.65,
+              "subieron": 14,
               "bajaron": 0,
               "total": 14
             },
             {
               "rubro": "BODEGA Y CAVAS DE WEINERT",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.56,
+              "subieron": 4,
               "bajaron": 0,
               "total": 4
             },
             {
               "rubro": "BODEGAS CHANDON",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 5.12,
+              "subieron": 5,
               "bajaron": 0,
               "total": 12
             },
@@ -245,29 +245,29 @@
             },
             {
               "rubro": "CHEVAL DES ANDES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.0,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
             {
               "rubro": "FINCA LAS MORAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 11.51,
+              "subieron": 7,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "RUCA MALEN",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 9.31,
+              "subieron": 3,
               "bajaron": 0,
               "total": 3
             },
             {
               "rubro": "VIÑA LAS PERDICES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.02,
+              "subieron": 9,
               "bajaron": 0,
               "total": 12
             }
@@ -276,173 +276,173 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 175,
-          "variacion_dia": 0.0,
+          "variacion_dia": 15.21,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 14.37,
+              "subieron": 4,
               "bajaron": 0,
               "total": 4
             },
             {
               "rubro": "APERITIVOS & BITTERS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 18.57,
+              "subieron": 25,
               "bajaron": 0,
               "total": 25
             },
             {
               "rubro": "BRANCA  COCKTAILS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 15.68,
+              "subieron": 7,
               "bajaron": 0,
               "total": 8
             },
             {
               "rubro": "CHOPP & BEERS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 4.89,
+              "subieron": 5,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "CLÁSICOS DEL  MUNDO",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 16.14,
+              "subieron": 11,
               "bajaron": 0,
               "total": 11
             },
             {
               "rubro": "COGNAC",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 10.38,
+              "subieron": 3,
               "bajaron": 0,
               "total": 3
             },
             {
               "rubro": "GIN",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
+              "variacion": 15.04,
+              "subieron": 3,
+              "bajaron": 1,
               "total": 4
             },
             {
               "rubro": "HENNESSY",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.38,
+              "subieron": 2,
               "bajaron": 0,
               "total": 4
             },
             {
               "rubro": "IRISH WHISKY",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 18.35,
+              "subieron": 2,
               "bajaron": 0,
               "total": 2
             },
             {
               "rubro": "JARRAS PARA COMPARTIR",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 17.7,
+              "subieron": 2,
               "bajaron": 0,
               "total": 2
             },
             {
               "rubro": "LICORES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 26.9,
+              "subieron": 12,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "MARTINI  BAR",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 10.95,
+              "subieron": 4,
               "bajaron": 0,
               "total": 5
             },
             {
               "rubro": "MOJITOS  FLAVOURS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 14.27,
+              "subieron": 5,
               "bajaron": 0,
               "total": 5
             },
             {
               "rubro": "SCOTCH WHISKY",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 12.78,
+              "subieron": 13,
               "bajaron": 0,
               "total": 15
             },
             {
               "rubro": "SINGLE MALT",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.82,
+              "subieron": 3,
               "bajaron": 0,
               "total": 4
             },
             {
               "rubro": "SMIRNOFF  DRINKS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 15.09,
+              "subieron": 4,
               "bajaron": 0,
               "total": 4
             },
             {
               "rubro": "SPECIAL  DRINKS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 16.87,
+              "subieron": 12,
               "bajaron": 0,
               "total": 13
             },
             {
               "rubro": "SPRITZER  COCKTAILS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 16.71,
+              "subieron": 7,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "TENNESSEE & BOURBON",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 15.27,
+              "subieron": 7,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "TEQUILAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.95,
+              "subieron": 4,
               "bajaron": 0,
               "total": 5
             },
             {
               "rubro": "THE GIN  COLLECTION",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 14.52,
+              "subieron": 11,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "THE R&F GREATEST HITS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 10.53,
+              "subieron": 1,
               "bajaron": 0,
               "total": 2
             },
             {
               "rubro": "THE R&F HALL OF  FAME",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 16.87,
+              "subieron": 9,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "VODKA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 16.31,
+              "subieron": 7,
               "bajaron": 0,
               "total": 7
             }
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-13"
+  "fecha_actualizacion": "2026-03-14"
 }
