@@ -96,14 +96,6 @@
     "precio_hoy": 11500.0
   },
   {
-    "nombre": "Cynar Spritz",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 27.27,
-    "precio_hoy": 7000.0
-  },
-  {
     "nombre": "Chandon Extra Brut Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
@@ -116,6 +108,14 @@
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Cynar Spritz",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 27.27,
     "precio_hoy": 7000.0
   },
@@ -136,22 +136,6 @@
     "precio_hoy": 6800.0
   },
   {
-    "nombre": "Dadá Berry Cocktail",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Fernet Branca",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
     "nombre": "Campari Orange",
     "local": "Orono",
     "carta": "Cocktails",
@@ -168,10 +152,10 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Strega Orange Tonic",
+    "nombre": "Fernet Branca",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -180,6 +164,22 @@
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "BRANCA  COCKTAILS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Strega Orange Tonic",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Dadá Berry Cocktail",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -216,14 +216,6 @@
     "precio_hoy": 7500.0
   },
   {
-    "nombre": "Rock&Fit Bowl",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
-  },
-  {
     "nombre": "Chivas Regal 12 años",
     "local": "Orono",
     "carta": "Cocktails",
@@ -232,10 +224,18 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Daiquiri",
+    "nombre": "Rock&Fit Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Aperol Spritz",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
+    "rubro": "SPRITZER  COCKTAILS",
     "diff_pct": 22.95,
     "precio_hoy": 7500.0
   }
