@@ -136,10 +136,18 @@
     "precio_hoy": 6800.0
   },
   {
-    "nombre": "Campari Orange",
+    "nombre": "Fernet Branca.",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
+    "rubro": "BRANCA  COCKTAILS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Strega Orange Tonic",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -160,18 +168,10 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Fernet Branca.",
+    "nombre": "Campari Orange",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "BRANCA  COCKTAILS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Strega Orange Tonic",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -184,12 +184,12 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Cumber Tonic",
+    "nombre": "Promoción Paletas R&F",
     "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "THE GIN  COLLECTION",
+    "carta": "Restaurante",
+    "rubro": "MENÚ KIDS",
     "diff_pct": 25.0,
-    "precio_hoy": 7500.0
+    "precio_hoy": 2500.0
   },
   {
     "nombre": "Italian Délice",
@@ -200,12 +200,12 @@
     "precio_hoy": 6500.0
   },
   {
-    "nombre": "Promoción Paletas R&F",
+    "nombre": "Cumber Tonic",
     "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "MENÚ KIDS",
+    "carta": "Cocktails",
+    "rubro": "THE GIN  COLLECTION",
     "diff_pct": 25.0,
-    "precio_hoy": 2500.0
+    "precio_hoy": 7500.0
   },
   {
     "nombre": "J&B",
@@ -216,14 +216,6 @@
     "precio_hoy": 7500.0
   },
   {
-    "nombre": "Chivas Regal 12 años",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "SCOTCH WHISKY",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
-  },
-  {
     "nombre": "Rock&Fit Bowl",
     "local": "Orono",
     "carta": "Cafeteria",
@@ -232,10 +224,18 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Aperol Spritz",
+    "nombre": "Chivas Regal 12 años",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPRITZER  COCKTAILS",
+    "rubro": "SCOTCH WHISKY",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Daiquiri",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
     "diff_pct": 22.95,
     "precio_hoy": 7500.0
   }
