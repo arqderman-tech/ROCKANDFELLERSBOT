@@ -16,7 +16,7 @@
     "precio_hoy": 29900.0
   },
   {
-    "nombre": "Sambuca Oro Borghetti",
+    "nombre": "Borghetti",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "LICORES",
@@ -24,7 +24,7 @@
     "precio_hoy": 4500.0
   },
   {
-    "nombre": "Borghetti",
+    "nombre": "Sambuca Oro Borghetti",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "LICORES",
@@ -96,18 +96,18 @@
     "precio_hoy": 11500.0
   },
   {
-    "nombre": "Cuba Libre",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
-    "diff_pct": 27.27,
-    "precio_hoy": 7000.0
-  },
-  {
     "nombre": "Cynar Spritz",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Cuba Libre",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
     "diff_pct": 27.27,
     "precio_hoy": 7000.0
   },
@@ -136,18 +136,10 @@
     "precio_hoy": 6800.0
   },
   {
-    "nombre": "Strega Orange Tonic",
+    "nombre": "Fernet Branca.",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Cynar Julep",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
+    "rubro": "BRANCA  COCKTAILS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -168,10 +160,18 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Fernet Branca.",
+    "nombre": "Strega Orange Tonic",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "BRANCA  COCKTAILS",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Cynar Julep",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -182,22 +182,6 @@
     "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Promoción Paletas R&F",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "MENÚ KIDS",
-    "diff_pct": 25.0,
-    "precio_hoy": 2500.0
-  },
-  {
-    "nombre": "J&B",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "SCOTCH WHISKY",
-    "diff_pct": 25.0,
-    "precio_hoy": 7500.0
   },
   {
     "nombre": "Italian Délice",
@@ -212,6 +196,22 @@
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "THE GIN  COLLECTION",
+    "diff_pct": 25.0,
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Promoción Paletas R&F",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "MENÚ KIDS",
+    "diff_pct": 25.0,
+    "precio_hoy": 2500.0
+  },
+  {
+    "nombre": "J&B",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SCOTCH WHISKY",
     "diff_pct": 25.0,
     "precio_hoy": 7500.0
   },
@@ -232,10 +232,10 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Daiquiri",
+    "nombre": "Aperol Spritz",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
+    "rubro": "SPRITZER  COCKTAILS",
     "diff_pct": 22.95,
     "precio_hoy": 7500.0
   }
