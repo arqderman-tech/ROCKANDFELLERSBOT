@@ -16,7 +16,7 @@
     "precio_hoy": 29900.0
   },
   {
-    "nombre": "Borghetti",
+    "nombre": "Sambuca Oro Borghetti",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "LICORES",
@@ -24,7 +24,7 @@
     "precio_hoy": 4500.0
   },
   {
-    "nombre": "Sambuca Oro Borghetti",
+    "nombre": "Borghetti",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "LICORES",
@@ -112,14 +112,6 @@
     "precio_hoy": 7000.0
   },
   {
-    "nombre": "Chandon Extra Brut Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 27.27,
-    "precio_hoy": 7000.0
-  },
-  {
     "nombre": "Grant’s",
     "local": "Orono",
     "carta": "Cocktails",
@@ -134,30 +126,6 @@
     "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.93,
     "precio_hoy": 6800.0
-  },
-  {
-    "nombre": "Fernet Branca.",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "BRANCA  COCKTAILS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Fernet Branca",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Campari Orange",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
   },
   {
     "nombre": "Strega Orange Tonic",
@@ -176,6 +144,22 @@
     "precio_hoy": 6900.0
   },
   {
+    "nombre": "Fernet Branca.",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "BRANCA  COCKTAILS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Fernet Branca",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
     "nombre": "Dadá Berry Cocktail",
     "local": "Orono",
     "carta": "Cocktails",
@@ -184,12 +168,12 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Italian Délice",
+    "nombre": "Campari Orange",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
-    "diff_pct": 25.0,
-    "precio_hoy": 6500.0
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
   },
   {
     "nombre": "Cumber Tonic",
@@ -216,12 +200,12 @@
     "precio_hoy": 7500.0
   },
   {
-    "nombre": "Rock&Fit Bowl",
+    "nombre": "Italian Délice",
     "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.0,
+    "precio_hoy": 6500.0
   },
   {
     "nombre": "Chivas Regal 12 años",
@@ -238,5 +222,21 @@
     "rubro": "SPRITZER  COCKTAILS",
     "diff_pct": 22.95,
     "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Daiquiri",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 22.95,
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Copa de vino blanco reserva",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BEBIDAS CON ALCOHOL",
+    "diff_pct": 22.45,
+    "precio_hoy": 6000.0
   }
 ]
