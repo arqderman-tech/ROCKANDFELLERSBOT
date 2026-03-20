@@ -8,14 +8,6 @@
     "precio_hoy": 6000.0
   },
   {
-    "nombre": "Sugerencia del Chef.-",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "SUGERENCIAS DEL CHEF",
-    "diff_pct": 53.33,
-    "precio_hoy": 29900.0
-  },
-  {
     "nombre": "Sambuca Oro Borghetti",
     "local": "Orono",
     "carta": "Cocktails",
@@ -238,5 +230,13 @@
     "rubro": "BEBIDAS CON ALCOHOL",
     "diff_pct": 22.45,
     "precio_hoy": 6000.0
+  },
+  {
+    "nombre": "Skyy",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "VODKA",
+    "diff_pct": 22.22,
+    "precio_hoy": 5500.0
   }
 ]

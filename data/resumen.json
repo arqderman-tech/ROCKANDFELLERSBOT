@@ -1,15 +1,15 @@
 {
-  "variacion_dia": -0.0,
+  "variacion_dia": 0.02,
   "variacion_mes": null,
-  "total_productos": 1387,
+  "total_productos": 1384,
   "locales": {
     "Orono": {
-      "total_productos": 463,
+      "total_productos": 462,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 135,
+          "total_productos": 134,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -81,13 +81,6 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
-            },
-            {
-              "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
-              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -451,12 +444,12 @@
       }
     },
     "Alto Rosario": {
-      "total_productos": 462,
+      "total_productos": 461,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 135,
+          "total_productos": 134,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -528,13 +521,6 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
-            },
-            {
-              "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
-              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -898,12 +884,12 @@
       }
     },
     "Savoy": {
-      "total_productos": 462,
+      "total_productos": 461,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 135,
+          "total_productos": 134,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -975,13 +961,6 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
-            },
-            {
-              "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
-              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -1351,5 +1330,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-19"
+  "fecha_actualizacion": "2026-03-20"
 }
