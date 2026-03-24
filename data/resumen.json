@@ -1,15 +1,15 @@
 {
-  "variacion_dia": 0.02,
+  "variacion_dia": -0.0,
   "variacion_mes": null,
-  "total_productos": 1384,
+  "total_productos": 1387,
   "locales": {
     "Orono": {
-      "total_productos": 462,
+      "total_productos": 463,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 134,
+          "total_productos": 135,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -444,12 +444,12 @@
       }
     },
     "Alto Rosario": {
-      "total_productos": 461,
+      "total_productos": 462,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 134,
+          "total_productos": 135,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -884,12 +884,12 @@
       }
     },
     "Savoy": {
-      "total_productos": 461,
+      "total_productos": 462,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 134,
+          "total_productos": 135,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -1330,5 +1330,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-23"
+  "fecha_actualizacion": "2026-03-24"
 }
