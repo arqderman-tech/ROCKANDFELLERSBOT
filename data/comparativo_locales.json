@@ -264,14 +264,6 @@
     "rubro": "SPRITZER  COCKTAILS"
   },
   {
-    "producto": "Belvedere Mint Spritz",
-    "Orono": 13500.0,
-    "Alto Rosario": 13500.0,
-    "Savoy": 13500.0,
-    "carta": "Cocktails",
-    "rubro": "SPRITZER  COCKTAILS"
-  },
-  {
     "producto": "Berry Spritz",
     "Orono": 8000.0,
     "Alto Rosario": 8000.0,
@@ -398,5 +390,13 @@
     "Savoy": 12900.0,
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS"
+  },
+  {
+    "producto": "Brownie de Chocolate y  Banana",
+    "Orono": 13500.0,
+    "Alto Rosario": 13500.0,
+    "Savoy": 13500.0,
+    "carta": "Cafeteria",
+    "rubro": "POSTRES"
   }
 ]

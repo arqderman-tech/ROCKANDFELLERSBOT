@@ -1,10 +1,10 @@
 {
-  "variacion_dia": -0.0,
+  "variacion_dia": 0.03,
   "variacion_mes": null,
-  "total_productos": 1387,
+  "total_productos": 1348,
   "locales": {
     "Orono": {
-      "total_productos": 463,
+      "total_productos": 450,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -275,7 +275,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 175,
+          "total_productos": 162,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -290,14 +290,14 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 25
+              "total": 23
             },
             {
               "rubro": "BRANCA  COCKTAILS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 8
+              "total": 7
             },
             {
               "rubro": "CHOPP & BEERS",
@@ -332,7 +332,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 2
             },
             {
               "rubro": "IRISH WHISKY",
@@ -360,7 +360,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 5
+              "total": 3
             },
             {
               "rubro": "MOJITOS  FLAVOURS",
@@ -374,7 +374,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 15
+              "total": 14
             },
             {
               "rubro": "SINGLE MALT",
@@ -388,21 +388,21 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 2
             },
             {
               "rubro": "SPECIAL  DRINKS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 13
+              "total": 12
             },
             {
               "rubro": "SPRITZER  COCKTAILS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 7
+              "total": 6
             },
             {
               "rubro": "TENNESSEE & BOURBON",
@@ -430,7 +430,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 2
+              "total": 1
             },
             {
               "rubro": "THE R&F HALL OF  FAME",
@@ -451,7 +451,7 @@
       }
     },
     "Alto Rosario": {
-      "total_productos": 462,
+      "total_productos": 449,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -722,7 +722,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 175,
+          "total_productos": 162,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -737,14 +737,14 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 25
+              "total": 23
             },
             {
               "rubro": "BRANCA  COCKTAILS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 8
+              "total": 7
             },
             {
               "rubro": "CHOPP & BEERS",
@@ -779,7 +779,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 2
             },
             {
               "rubro": "IRISH WHISKY",
@@ -807,7 +807,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 5
+              "total": 3
             },
             {
               "rubro": "MOJITOS  FLAVOURS",
@@ -821,7 +821,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 15
+              "total": 14
             },
             {
               "rubro": "SINGLE MALT",
@@ -835,21 +835,21 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 2
             },
             {
               "rubro": "SPECIAL  DRINKS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 13
+              "total": 12
             },
             {
               "rubro": "SPRITZER  COCKTAILS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 7
+              "total": 6
             },
             {
               "rubro": "TENNESSEE & BOURBON",
@@ -877,7 +877,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 2
+              "total": 1
             },
             {
               "rubro": "THE R&F HALL OF  FAME",
@@ -898,13 +898,13 @@
       }
     },
     "Savoy": {
-      "total_productos": 462,
-      "variacion_dia": 0.0,
+      "total_productos": 449,
+      "variacion_dia": 0.12,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.41,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -978,8 +978,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 55.5,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
@@ -1169,7 +1169,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 175,
+          "total_productos": 162,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -1184,14 +1184,14 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 25
+              "total": 23
             },
             {
               "rubro": "BRANCA  COCKTAILS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 8
+              "total": 7
             },
             {
               "rubro": "CHOPP & BEERS",
@@ -1226,7 +1226,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 2
             },
             {
               "rubro": "IRISH WHISKY",
@@ -1254,7 +1254,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 5
+              "total": 3
             },
             {
               "rubro": "MOJITOS  FLAVOURS",
@@ -1268,7 +1268,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 15
+              "total": 14
             },
             {
               "rubro": "SINGLE MALT",
@@ -1282,21 +1282,21 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 2
             },
             {
               "rubro": "SPECIAL  DRINKS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 13
+              "total": 12
             },
             {
               "rubro": "SPRITZER  COCKTAILS",
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 7
+              "total": 6
             },
             {
               "rubro": "TENNESSEE & BOURBON",
@@ -1324,7 +1324,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 2
+              "total": 1
             },
             {
               "rubro": "THE R&F HALL OF  FAME",
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-03-30"
+  "fecha_actualizacion": "2026-03-31"
 }
