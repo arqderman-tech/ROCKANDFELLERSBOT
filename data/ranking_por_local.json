@@ -1,14 +1,5 @@
 {
   "Orono": [],
   "Alto Rosario": [],
-  "Savoy": [
-    {
-      "nombre": "Sugerencia del Chef.-",
-      "local": "Savoy",
-      "carta": "Restaurante",
-      "rubro": "SUGERENCIAS DEL CHEF",
-      "diff_pct": 55.5,
-      "precio_hoy": 32500.0
-    }
-  ]
+  "Savoy": []
 }
