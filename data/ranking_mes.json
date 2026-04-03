@@ -1,11 +1,35 @@
 [
   {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 55.5,
+    "precio_hoy": 32500.0
+  },
+  {
     "nombre": "Grappa Candolini",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "LICORES",
     "diff_pct": 53.85,
     "precio_hoy": 6000.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 53.33,
+    "precio_hoy": 29900.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Alto Rosario",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 53.33,
+    "precio_hoy": 29900.0
   },
   {
     "nombre": "Borghetti",
@@ -160,12 +184,12 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Cumber Tonic",
+    "nombre": "Promoción Paletas R&F",
     "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "THE GIN  COLLECTION",
+    "carta": "Restaurante",
+    "rubro": "MENÚ KIDS",
     "diff_pct": 25.0,
-    "precio_hoy": 7500.0
+    "precio_hoy": 2500.0
   },
   {
     "nombre": "Italian Délice",
@@ -176,12 +200,12 @@
     "precio_hoy": 6500.0
   },
   {
-    "nombre": "Promoción Paletas R&F",
+    "nombre": "Cumber Tonic",
     "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "MENÚ KIDS",
+    "carta": "Cocktails",
+    "rubro": "THE GIN  COLLECTION",
     "diff_pct": 25.0,
-    "precio_hoy": 2500.0
+    "precio_hoy": 7500.0
   },
   {
     "nombre": "J&B",
@@ -192,14 +216,6 @@
     "precio_hoy": 7500.0
   },
   {
-    "nombre": "Chivas Regal 12 años",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "SCOTCH WHISKY",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
-  },
-  {
     "nombre": "Rock&Fit Bowl",
     "local": "Orono",
     "carta": "Cafeteria",
@@ -208,12 +224,12 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Aperol Spritz",
+    "nombre": "Chivas Regal 12 años",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "SPRITZER  COCKTAILS",
-    "diff_pct": 22.95,
-    "precio_hoy": 7500.0
+    "rubro": "SCOTCH WHISKY",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
   },
   {
     "nombre": "Daiquiri",
@@ -222,21 +238,5 @@
     "rubro": "CLÁSICOS DEL  MUNDO",
     "diff_pct": 22.95,
     "precio_hoy": 7500.0
-  },
-  {
-    "nombre": "Copa de vino blanco reserva",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BEBIDAS CON ALCOHOL",
-    "diff_pct": 22.45,
-    "precio_hoy": 6000.0
-  },
-  {
-    "nombre": "Skyy",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "VODKA",
-    "diff_pct": 22.22,
-    "precio_hoy": 5500.0
   }
 ]
