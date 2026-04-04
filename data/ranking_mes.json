@@ -17,7 +17,7 @@
   },
   {
     "nombre": "Sugerencia del Chef.-",
-    "local": "Orono",
+    "local": "Alto Rosario",
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
     "diff_pct": 53.33,
@@ -25,7 +25,7 @@
   },
   {
     "nombre": "Sugerencia del Chef.-",
-    "local": "Alto Rosario",
+    "local": "Orono",
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
     "diff_pct": 53.33,
@@ -112,18 +112,18 @@
     "precio_hoy": 11500.0
   },
   {
-    "nombre": "Chandon Extra Brut Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 27.27,
-    "precio_hoy": 7000.0
-  },
-  {
     "nombre": "Cuba Libre",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
     "diff_pct": 27.27,
     "precio_hoy": 7000.0
   },
@@ -144,18 +144,18 @@
     "precio_hoy": 6800.0
   },
   {
-    "nombre": "Fernet Branca.",
+    "nombre": "Dadá Berry Cocktail",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "BRANCA  COCKTAILS",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Campari Orange",
+    "nombre": "Fernet Branca.",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
+    "rubro": "BRANCA  COCKTAILS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -176,7 +176,7 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Dadá Berry Cocktail",
+    "nombre": "Campari Orange",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "APERITIVOS & BITTERS",
@@ -190,14 +190,6 @@
     "rubro": "MENÚ KIDS",
     "diff_pct": 25.0,
     "precio_hoy": 2500.0
-  },
-  {
-    "nombre": "Italian Délice",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
-    "diff_pct": 25.0,
-    "precio_hoy": 6500.0
   },
   {
     "nombre": "Cumber Tonic",
@@ -216,6 +208,14 @@
     "precio_hoy": 7500.0
   },
   {
+    "nombre": "Italian Délice",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.0,
+    "precio_hoy": 6500.0
+  },
+  {
     "nombre": "Rock&Fit Bowl",
     "local": "Orono",
     "carta": "Cafeteria",
@@ -232,10 +232,10 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Daiquiri",
+    "nombre": "Aperol Spritz",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
+    "rubro": "SPRITZER  COCKTAILS",
     "diff_pct": 22.95,
     "precio_hoy": 7500.0
   }

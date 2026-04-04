@@ -83,6 +83,13 @@
               "total": 3
             },
             {
+              "rubro": "SUGERENCIAS DEL CHEF",
+              "variacion": 0.0,
+              "subieron": 0,
+              "bajaron": 0,
+              "total": 1
+            },
+            {
               "rubro": "SÁNDWICHES",
               "variacion": 0.0,
               "subieron": 0,
@@ -521,6 +528,13 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
+            },
+            {
+              "rubro": "SUGERENCIAS DEL CHEF",
+              "variacion": 0.0,
+              "subieron": 0,
+              "bajaron": 0,
+              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -963,6 +977,13 @@
               "total": 3
             },
             {
+              "rubro": "SUGERENCIAS DEL CHEF",
+              "variacion": 0.0,
+              "subieron": 0,
+              "bajaron": 0,
+              "total": 1
+            },
+            {
               "rubro": "SÁNDWICHES",
               "variacion": 0.0,
               "subieron": 0,
@@ -1330,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-04-03"
+  "fecha_actualizacion": "2026-04-04"
 }
