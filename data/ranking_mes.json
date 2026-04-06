@@ -17,14 +17,6 @@
   },
   {
     "nombre": "Sugerencia del Chef.-",
-    "local": "Alto Rosario",
-    "carta": "Restaurante",
-    "rubro": "SUGERENCIAS DEL CHEF",
-    "diff_pct": 53.33,
-    "precio_hoy": 29900.0
-  },
-  {
-    "nombre": "Sugerencia del Chef.-",
     "local": "Orono",
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
@@ -112,18 +104,18 @@
     "precio_hoy": 11500.0
   },
   {
-    "nombre": "Cuba Libre",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
-    "diff_pct": 27.27,
-    "precio_hoy": 7000.0
-  },
-  {
     "nombre": "Chandon Extra Brut Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Cuba Libre",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
     "diff_pct": 27.27,
     "precio_hoy": 7000.0
   },
@@ -144,15 +136,7 @@
     "precio_hoy": 6800.0
   },
   {
-    "nombre": "Fernet Branca",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 25.45,
-    "precio_hoy": 6900.0
-  },
-  {
-    "nombre": "Dadá Berry Cocktail",
+    "nombre": "Campari Orange",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "APERITIVOS & BITTERS",
@@ -168,7 +152,15 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Campari Orange",
+    "nombre": "Dadá Berry Cocktail",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 25.45,
+    "precio_hoy": 6900.0
+  },
+  {
+    "nombre": "Fernet Branca",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "APERITIVOS & BITTERS",
@@ -184,20 +176,12 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Italian Délice",
+    "nombre": "Promoción Paletas R&F",
     "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "SPECIAL  DRINKS",
+    "carta": "Restaurante",
+    "rubro": "MENÚ KIDS",
     "diff_pct": 25.0,
-    "precio_hoy": 6500.0
-  },
-  {
-    "nombre": "Cumber Tonic",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "THE GIN  COLLECTION",
-    "diff_pct": 25.0,
-    "precio_hoy": 7500.0
+    "precio_hoy": 2500.0
   },
   {
     "nombre": "J&B",
@@ -208,12 +192,20 @@
     "precio_hoy": 7500.0
   },
   {
-    "nombre": "Promoción Paletas R&F",
+    "nombre": "Cumber Tonic",
     "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "MENÚ KIDS",
+    "carta": "Cocktails",
+    "rubro": "THE GIN  COLLECTION",
     "diff_pct": 25.0,
-    "precio_hoy": 2500.0
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Italian Délice",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPECIAL  DRINKS",
+    "diff_pct": 25.0,
+    "precio_hoy": 6500.0
   },
   {
     "nombre": "Chivas Regal 12 años",
@@ -230,6 +222,14 @@
     "rubro": "RECOMENDADOS",
     "diff_pct": 23.53,
     "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Aperol Spritz",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "SPRITZER  COCKTAILS",
+    "diff_pct": 22.95,
+    "precio_hoy": 7500.0
   },
   {
     "nombre": "Daiquiri",
