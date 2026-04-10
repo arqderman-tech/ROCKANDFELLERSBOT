@@ -104,18 +104,18 @@
     "precio_hoy": 11500.0
   },
   {
-    "nombre": "Chandon Extra Brut Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 27.27,
-    "precio_hoy": 7000.0
-  },
-  {
     "nombre": "Cuba Libre",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 27.27,
+    "precio_hoy": 7000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
     "diff_pct": 27.27,
     "precio_hoy": 7000.0
   },
@@ -136,10 +136,10 @@
     "precio_hoy": 6800.0
   },
   {
-    "nombre": "Fernet Branca",
+    "nombre": "Fernet Branca.",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
+    "rubro": "BRANCA  COCKTAILS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
@@ -160,15 +160,15 @@
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Fernet Branca.",
+    "nombre": "Cynar Julep",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "BRANCA  COCKTAILS",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 25.45,
     "precio_hoy": 6900.0
   },
   {
-    "nombre": "Cynar Julep",
+    "nombre": "Fernet Branca",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "APERITIVOS & BITTERS",
@@ -208,18 +208,18 @@
     "precio_hoy": 6500.0
   },
   {
-    "nombre": "Rock&Fit Bowl",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
-  },
-  {
     "nombre": "Chivas Regal 12 años",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "SCOTCH WHISKY",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Rock&Fit Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
     "diff_pct": 23.53,
     "precio_hoy": 10500.0
   },
