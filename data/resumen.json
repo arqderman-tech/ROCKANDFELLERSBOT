@@ -269,7 +269,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 12
+              "total": 13
             }
           ]
         },
@@ -716,7 +716,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 12
+              "total": 13
             }
           ]
         },
@@ -1163,7 +1163,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 12
+              "total": 13
             }
           ]
         },
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-04-13"
+  "fecha_actualizacion": "2026-04-14"
 }
