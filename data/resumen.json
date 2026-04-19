@@ -1,16 +1,16 @@
 {
-  "variacion_dia": -0.01,
+  "variacion_dia": 0.02,
   "variacion_mes": -0.01,
   "total_productos": 1348,
   "locales": {
     "Orono": {
       "total_productos": 450,
-      "variacion_dia": -0.03,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": -0.11,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -84,9 +84,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": -14.72,
+              "variacion": 0.0,
               "subieron": 0,
-              "bajaron": 1,
+              "bajaron": 0,
               "total": 1
             },
             {
@@ -452,12 +452,12 @@
     },
     "Alto Rosario": {
       "total_productos": 449,
-      "variacion_dia": -0.03,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": -0.11,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -531,9 +531,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": -14.72,
+              "variacion": 0.0,
               "subieron": 0,
-              "bajaron": 1,
+              "bajaron": 0,
               "total": 1
             },
             {
@@ -899,12 +899,12 @@
     },
     "Savoy": {
       "total_productos": 449,
-      "variacion_dia": -0.05,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": -0.16,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -978,9 +978,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": -21.54,
+              "variacion": 0.0,
               "subieron": 0,
-              "bajaron": 1,
+              "bajaron": 0,
               "total": 1
             },
             {
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-04-18"
+  "fecha_actualizacion": "2026-04-19"
 }
