@@ -1,10 +1,10 @@
 {
   "variacion_dia": 0.02,
   "variacion_mes": -0.01,
-  "total_productos": 1348,
+  "total_productos": 1354,
   "locales": {
     "Orono": {
-      "total_productos": 450,
+      "total_productos": 452,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -170,7 +170,7 @@
         },
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
-          "total_productos": 96,
+          "total_productos": 97,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -275,7 +275,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 162,
+          "total_productos": 163,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -451,7 +451,7 @@
       }
     },
     "Alto Rosario": {
-      "total_productos": 449,
+      "total_productos": 451,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -617,7 +617,7 @@
         },
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
-          "total_productos": 96,
+          "total_productos": 97,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -722,7 +722,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 162,
+          "total_productos": 163,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -898,7 +898,7 @@
       }
     },
     "Savoy": {
-      "total_productos": 449,
+      "total_productos": 451,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -1064,7 +1064,7 @@
         },
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
-          "total_productos": 96,
+          "total_productos": 97,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -1169,7 +1169,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 162,
+          "total_productos": 163,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-04-22"
+  "fecha_actualizacion": "2026-04-23"
 }
