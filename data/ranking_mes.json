@@ -1,14 +1,6 @@
 [
   {
     "nombre": "Sugerencia del Chef.-",
-    "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "SUGERENCIAS DEL CHEF",
-    "diff_pct": 22.01,
-    "precio_hoy": 25500.0
-  },
-  {
-    "nombre": "Sugerencia del Chef.-",
     "local": "Orono",
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
@@ -21,6 +13,14 @@
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
     "diff_pct": -14.72,
+    "precio_hoy": 25500.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": -21.54,
     "precio_hoy": 25500.0
   }
 ]
