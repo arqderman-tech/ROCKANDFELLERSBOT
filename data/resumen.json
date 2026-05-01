@@ -1,16 +1,16 @@
 {
-  "variacion_dia": 0.02,
-  "variacion_mes": -0.01,
+  "variacion_dia": -0.02,
+  "variacion_mes": -0.06,
   "total_productos": 1354,
   "locales": {
     "Orono": {
       "total_productos": 452,
-      "variacion_dia": 0.0,
+      "variacion_dia": -0.06,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": -0.19,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -84,9 +84,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
+              "variacion": -25.88,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 1
             },
             {
@@ -452,12 +452,12 @@
     },
     "Alto Rosario": {
       "total_productos": 451,
-      "variacion_dia": 0.0,
+      "variacion_dia": -0.06,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": -0.19,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -531,9 +531,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
+              "variacion": -25.88,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 1
             },
             {
@@ -899,12 +899,12 @@
     },
     "Savoy": {
       "total_productos": 451,
-      "variacion_dia": 0.0,
+      "variacion_dia": -0.02,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": -0.19,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -978,9 +978,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
+              "variacion": -25.88,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 1
             },
             {
@@ -1065,7 +1065,7 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 97,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.52,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
@@ -1160,8 +1160,8 @@
             },
             {
               "rubro": "VIÑA LAS PERDICES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.85,
+              "subieron": 1,
               "bajaron": 0,
               "total": 13
             }
@@ -1170,7 +1170,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 163,
-          "variacion_dia": 0.0,
+          "variacion_dia": -0.19,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -1216,9 +1216,9 @@
             },
             {
               "rubro": "GIN",
-              "variacion": 0.0,
+              "variacion": -6.25,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 5
             },
             {
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-04-30"
+  "fecha_actualizacion": "2026-05-01"
 }
