@@ -1,48 +1,14 @@
 {
   "Orono": [
     {
-      "nombre": "Sugerencia del Chef.-",
-      "local": "Orono",
-      "carta": "Restaurante",
-      "rubro": "SUGERENCIAS DEL CHEF",
-      "diff_pct": -25.88,
-      "precio_hoy": 18900.0
-    }
-  ],
-  "Alto Rosario": [
-    {
-      "nombre": "Sugerencia del Chef.-",
-      "local": "Alto Rosario",
-      "carta": "Restaurante",
-      "rubro": "SUGERENCIAS DEL CHEF",
-      "diff_pct": -25.88,
-      "precio_hoy": 18900.0
-    }
-  ],
-  "Savoy": [
-    {
-      "nombre": "Las Perdices Sauvignon Blanc",
-      "local": "Savoy",
-      "carta": "Vinos y Espumantes",
-      "rubro": "VIÑA LAS PERDICES",
-      "diff_pct": 50.0,
-      "precio_hoy": 19500.0
-    },
-    {
-      "nombre": "Sugerencia del Chef.-",
-      "local": "Savoy",
-      "carta": "Restaurante",
-      "rubro": "SUGERENCIAS DEL CHEF",
-      "diff_pct": -25.88,
-      "precio_hoy": 18900.0
-    },
-    {
       "nombre": "Heredero",
-      "local": "Savoy",
+      "local": "Orono",
       "carta": "Cocktails",
       "rubro": "GIN",
       "diff_pct": -31.25,
       "precio_hoy": 5500.0
     }
-  ]
+  ],
+  "Alto Rosario": [],
+  "Savoy": []
 }
