@@ -1,11 +1,11 @@
 {
-  "variacion_dia": 0.01,
+  "variacion_dia": 0.09,
   "variacion_mes": -0.06,
   "total_productos": 1354,
   "locales": {
     "Orono": {
       "total_productos": 452,
-      "variacion_dia": -0.07,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
@@ -276,7 +276,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 163,
-          "variacion_dia": -0.19,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -322,9 +322,9 @@
             },
             {
               "rubro": "GIN",
-              "variacion": -6.25,
+              "variacion": 0.0,
               "subieron": 0,
-              "bajaron": 1,
+              "bajaron": 0,
               "total": 5
             },
             {
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-05-02"
+  "fecha_actualizacion": "2026-05-03"
 }
