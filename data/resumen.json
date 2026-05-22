@@ -1,16 +1,16 @@
 {
-  "variacion_dia": 0.09,
-  "variacion_mes": 0.0,
+  "variacion_dia": 0.16,
+  "variacion_mes": 0.04,
   "total_productos": 1354,
   "locales": {
     "Orono": {
       "total_productos": 452,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.13,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.43,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -84,8 +84,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 58.2,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
@@ -899,12 +899,12 @@
     },
     "Savoy": {
       "total_productos": 451,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.09,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.43,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -978,8 +978,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 58.2,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
@@ -1065,7 +1065,7 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 97,
-          "variacion_dia": 0.0,
+          "variacion_dia": -0.19,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
@@ -1160,9 +1160,9 @@
             },
             {
               "rubro": "VIÑA LAS PERDICES",
-              "variacion": 0.0,
+              "variacion": -1.38,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 13
             }
           ]
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-05-21"
+  "fecha_actualizacion": "2026-05-22"
 }

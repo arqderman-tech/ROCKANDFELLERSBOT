@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 58.2,
+    "precio_hoy": 29900.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 58.2,
+    "precio_hoy": 29900.0
+  },
+  {
+    "nombre": "Las Perdices Sauvignon Blanc",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "VIÑA LAS PERDICES",
+    "diff_pct": -17.95,
+    "precio_hoy": 16000.0
+  }
+]
