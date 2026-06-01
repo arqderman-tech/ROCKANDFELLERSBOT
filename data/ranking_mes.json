@@ -33,14 +33,6 @@
   },
   {
     "nombre": "Heredero",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "GIN",
-    "diff_pct": -31.25,
-    "precio_hoy": 5500.0
-  },
-  {
-    "nombre": "Heredero",
     "local": "Alto Rosario",
     "carta": "Cocktails",
     "rubro": "GIN",
