@@ -381,7 +381,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 3
             },
             {
               "rubro": "SMIRNOFF  DRINKS",
@@ -828,7 +828,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 3
             },
             {
               "rubro": "SMIRNOFF  DRINKS",
@@ -1275,7 +1275,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 4
+              "total": 3
             },
             {
               "rubro": "SMIRNOFF  DRINKS",
@@ -1351,5 +1351,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-01"
+  "fecha_actualizacion": "2026-06-02"
 }
