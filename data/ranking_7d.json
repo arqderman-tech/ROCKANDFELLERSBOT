@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": -21.4,
+    "precio_hoy": 23500.0
+  }
+]

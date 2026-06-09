@@ -1,6 +1,6 @@
 {
-  "variacion_dia": 0.0,
-  "variacion_mes": 0.18,
+  "variacion_dia": -0.05,
+  "variacion_mes": 0.11,
   "total_productos": 451,
   "locales": {
     "Orono": {
@@ -65,12 +65,12 @@
     },
     "Savoy": {
       "total_productos": 451,
-      "variacion_dia": 0.0,
+      "variacion_dia": -0.05,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 135,
-          "variacion_dia": 0.0,
+          "variacion_dia": -0.16,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -144,9 +144,9 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
+              "variacion": -21.4,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 1
             },
             {
@@ -517,5 +517,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-08"
+  "fecha_actualizacion": "2026-06-09"
 }
