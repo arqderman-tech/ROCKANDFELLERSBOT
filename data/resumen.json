@@ -1,6 +1,6 @@
 {
   "variacion_dia": 0.0,
-  "variacion_mes": 0.12,
+  "variacion_mes": 0.01,
   "total_productos": 451,
   "locales": {
     "Orono": {
@@ -517,5 +517,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-21"
+  "fecha_actualizacion": "2026-06-22"
 }
