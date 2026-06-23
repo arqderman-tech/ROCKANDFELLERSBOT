@@ -1,7 +1,7 @@
 {
   "variacion_dia": 0.0,
   "variacion_mes": 0.01,
-  "total_productos": 451,
+  "total_productos": 453,
   "locales": {
     "Orono": {
       "total_productos": 0,
@@ -64,12 +64,12 @@
       }
     },
     "Savoy": {
-      "total_productos": 451,
+      "total_productos": 453,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 135,
+          "total_productos": 137,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -168,7 +168,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 5
+              "total": 2
             }
           ]
         },
@@ -517,5 +517,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-22"
+  "fecha_actualizacion": "2026-06-23"
 }
