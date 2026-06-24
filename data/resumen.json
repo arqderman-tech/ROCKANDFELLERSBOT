@@ -1,7 +1,7 @@
 {
   "variacion_dia": 0.0,
   "variacion_mes": 0.01,
-  "total_productos": 453,
+  "total_productos": 458,
   "locales": {
     "Orono": {
       "total_productos": 0,
@@ -64,12 +64,12 @@
       }
     },
     "Savoy": {
-      "total_productos": 453,
+      "total_productos": 458,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 137,
+          "total_productos": 139,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -91,7 +91,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 15
+              "total": 14
             },
             {
               "rubro": "CHEESECAKE & TORTAS",
@@ -126,7 +126,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 11
+              "total": 12
             },
             {
               "rubro": "POSTRES & HELADOS",
@@ -168,7 +168,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 2
+              "total": 6
             }
           ]
         },
@@ -335,7 +335,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 163,
+          "total_productos": 166,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -517,5 +517,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-23"
+  "fecha_actualizacion": "2026-06-24"
 }
