@@ -1,7 +1,7 @@
 {
   "variacion_dia": 0.0,
   "variacion_mes": 0.01,
-  "total_productos": 458,
+  "total_productos": 451,
   "locales": {
     "Orono": {
       "total_productos": 0,
@@ -64,7 +64,7 @@
       }
     },
     "Savoy": {
-      "total_productos": 458,
+      "total_productos": 451,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -77,7 +77,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 14
+              "total": 16
             },
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -91,7 +91,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 14
+              "total": 15
             },
             {
               "rubro": "CHEESECAKE & TORTAS",
@@ -230,7 +230,7 @@
         },
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
-          "total_productos": 97,
+          "total_productos": 90,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -266,7 +266,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 10
+              "total": 6
             },
             {
               "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -318,13 +318,6 @@
               "total": 7
             },
             {
-              "rubro": "RUCA MALEN",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
-              "total": 3
-            },
-            {
               "rubro": "VIÑA LAS PERDICES",
               "variacion": 0.0,
               "subieron": 0,
@@ -364,7 +357,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 7
+              "total": 10
             },
             {
               "rubro": "CLÁSICOS DEL  MUNDO",
@@ -517,5 +510,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-24"
+  "fecha_actualizacion": "2026-06-25"
 }
