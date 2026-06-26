@@ -1,5 +1,5 @@
 {
-  "variacion_dia": 0.0,
+  "variacion_dia": 0.1,
   "variacion_mes": 0.01,
   "total_productos": 451,
   "locales": {
@@ -65,18 +65,18 @@
     },
     "Savoy": {
       "total_productos": 451,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.1,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.24,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
-              "variacion": 0.0,
+              "variacion": -0.11,
               "subieron": 0,
-              "bajaron": 0,
+              "bajaron": 1,
               "total": 16
             },
             {
@@ -123,8 +123,8 @@
             },
             {
               "rubro": "PASTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.12,
+              "subieron": 1,
               "bajaron": 0,
               "total": 12
             },
@@ -165,8 +165,8 @@
             },
             {
               "rubro": "WOKS & VEGGIE",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.59,
+              "subieron": 1,
               "bajaron": 0,
               "total": 6
             }
@@ -329,7 +329,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 166,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.08,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -354,9 +354,9 @@
             },
             {
               "rubro": "CHOPP & BEERS",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
+              "variacion": 1.25,
+              "subieron": 1,
+              "bajaron": 2,
               "total": 10
             },
             {
@@ -510,5 +510,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-25"
+  "fecha_actualizacion": "2026-06-26"
 }

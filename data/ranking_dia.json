@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "nombre": "Milanesa & Provolone Pasta",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "PASTAS",
+    "diff_pct": 25.45,
+    "precio_hoy": 34500.0
+  },
+  {
+    "nombre": "Stella Artois Noire.",
+    "local": "Savoy",
+    "carta": "Cocktails",
+    "rubro": "CHOPP & BEERS",
+    "diff_pct": 16.07,
+    "precio_hoy": 6500.0
+  },
+  {
+    "nombre": "Oriental Wok de Mariscos",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "WOKS & VEGGIE",
+    "diff_pct": 9.52,
+    "precio_hoy": 34500.0
+  },
+  {
+    "nombre": "Corona sin alcohol",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "BEBIDAS SIN ALCOHOL",
+    "diff_pct": -1.79,
+    "precio_hoy": 5500.0
+  },
+  {
+    "nombre": "Stella Artois Pure Gold",
+    "local": "Savoy",
+    "carta": "Cocktails",
+    "rubro": "CHOPP & BEERS",
+    "diff_pct": -1.79,
+    "precio_hoy": 5500.0
+  },
+  {
+    "nombre": "Corona sin alcohol.",
+    "local": "Savoy",
+    "carta": "Cocktails",
+    "rubro": "CHOPP & BEERS",
+    "diff_pct": -1.79,
+    "precio_hoy": 5500.0
+  }
+]
