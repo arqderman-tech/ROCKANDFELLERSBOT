@@ -1,7 +1,7 @@
 {
-  "variacion_dia": 0.1,
-  "variacion_mes": 0.01,
-  "total_productos": 451,
+  "variacion_dia": 0.03,
+  "variacion_mes": 0.05,
+  "total_productos": 453,
   "locales": {
     "Orono": {
       "total_productos": 0,
@@ -64,19 +64,19 @@
       }
     },
     "Savoy": {
-      "total_productos": 451,
-      "variacion_dia": 0.1,
+      "total_productos": 453,
+      "variacion_dia": 0.03,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.24,
+          "variacion_dia": 0.11,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
-              "variacion": -0.11,
+              "variacion": 0.0,
               "subieron": 0,
-              "bajaron": 1,
+              "bajaron": 0,
               "total": 16
             },
             {
@@ -88,8 +88,8 @@
             },
             {
               "rubro": "CARNES & PESCADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.61,
+              "subieron": 1,
               "bajaron": 0,
               "total": 15
             },
@@ -109,8 +109,8 @@
             },
             {
               "rubro": "ENTRADAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.4,
+              "subieron": 1,
               "bajaron": 0,
               "total": 16
             },
@@ -123,8 +123,8 @@
             },
             {
               "rubro": "PASTAS",
-              "variacion": 2.12,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 12
             },
@@ -165,8 +165,8 @@
             },
             {
               "rubro": "WOKS & VEGGIE",
-              "variacion": 1.59,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 6
             }
@@ -328,8 +328,8 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 166,
-          "variacion_dia": 0.08,
+          "total_productos": 168,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -354,9 +354,9 @@
             },
             {
               "rubro": "CHOPP & BEERS",
-              "variacion": 1.25,
-              "subieron": 1,
-              "bajaron": 2,
+              "variacion": 0.0,
+              "subieron": 0,
+              "bajaron": 0,
               "total": 10
             },
             {
@@ -510,5 +510,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-26"
+  "fecha_actualizacion": "2026-06-27"
 }
