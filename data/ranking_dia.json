@@ -1,18 +1,1 @@
-[
-  {
-    "nombre": "Beef Ribs",
-    "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "CARNES & PESCADOS",
-    "diff_pct": 9.12,
-    "precio_hoy": 35900.0
-  },
-  {
-    "nombre": "Mezze Falafel Veggie",
-    "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "ENTRADAS",
-    "diff_pct": 6.45,
-    "precio_hoy": 16500.0
-  }
-]
+[]

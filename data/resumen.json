@@ -1,5 +1,5 @@
 {
-  "variacion_dia": 0.03,
+  "variacion_dia": 0.0,
   "variacion_mes": 0.05,
   "total_productos": 453,
   "locales": {
@@ -65,12 +65,12 @@
     },
     "Savoy": {
       "total_productos": 453,
-      "variacion_dia": 0.03,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.11,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -88,8 +88,8 @@
             },
             {
               "rubro": "CARNES & PESCADOS",
-              "variacion": 0.61,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 15
             },
@@ -109,8 +109,8 @@
             },
             {
               "rubro": "ENTRADAS",
-              "variacion": 0.4,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 16
             },
@@ -448,7 +448,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 12
+              "total": 14
             },
             {
               "rubro": "SPRITZER  COCKTAILS",
@@ -510,5 +510,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-27"
+  "fecha_actualizacion": "2026-06-28"
 }
