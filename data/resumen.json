@@ -1,6 +1,6 @@
 {
-  "variacion_dia": 0.0,
-  "variacion_mes": 0.05,
+  "variacion_dia": 0.04,
+  "variacion_mes": 0.1,
   "total_productos": 453,
   "locales": {
     "Orono": {
@@ -65,12 +65,12 @@
     },
     "Savoy": {
       "total_productos": 453,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.04,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.14,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -151,8 +151,8 @@
             },
             {
               "rubro": "SÁNDWICHES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.23,
+              "subieron": 2,
               "bajaron": 0,
               "total": 9
             },
@@ -510,5 +510,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-28"
+  "fecha_actualizacion": "2026-06-29"
 }

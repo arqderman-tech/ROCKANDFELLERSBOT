@@ -1,5 +1,22 @@
 {
   "Orono": [],
   "Alto Rosario": [],
-  "Savoy": []
+  "Savoy": [
+    {
+      "nombre": "Mini Cadillac Burgers",
+      "local": "Savoy",
+      "carta": "Restaurante",
+      "rubro": "SÁNDWICHES",
+      "diff_pct": 10.05,
+      "precio_hoy": 21900.0
+    },
+    {
+      "nombre": "Grand Cadillac Burger",
+      "local": "Savoy",
+      "carta": "Restaurante",
+      "rubro": "SÁNDWICHES",
+      "diff_pct": 10.05,
+      "precio_hoy": 21900.0
+    }
+  ]
 }

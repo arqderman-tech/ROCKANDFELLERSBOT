@@ -1,5 +1,21 @@
 [
   {
+    "nombre": "Grand Cadillac Burger",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SÁNDWICHES",
+    "diff_pct": 10.05,
+    "precio_hoy": 21900.0
+  },
+  {
+    "nombre": "Mini Cadillac Burgers",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SÁNDWICHES",
+    "diff_pct": 10.05,
+    "precio_hoy": 21900.0
+  },
+  {
     "nombre": "Beef Ribs",
     "local": "Savoy",
     "carta": "Restaurante",
