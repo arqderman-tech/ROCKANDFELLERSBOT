@@ -1,6 +1,6 @@
 {
-  "variacion_dia": 0.04,
-  "variacion_mes": 0.1,
+  "variacion_dia": 3.22,
+  "variacion_mes": 3.34,
   "total_productos": 453,
   "locales": {
     "Orono": {
@@ -65,80 +65,80 @@
     },
     "Savoy": {
       "total_productos": 453,
-      "variacion_dia": 0.04,
+      "variacion_dia": 3.22,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.14,
+          "variacion_dia": 6.87,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.81,
+              "subieron": 15,
               "bajaron": 0,
               "total": 16
             },
             {
               "rubro": "CAFETERÍA CLÁSICA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.4,
+              "subieron": 11,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "CARNES & PESCADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.18,
+              "subieron": 13,
               "bajaron": 0,
               "total": 15
             },
             {
               "rubro": "CHEESECAKE & TORTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.1,
+              "subieron": 10,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "ENSALADAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 5.29,
+              "subieron": 11,
               "bajaron": 0,
               "total": 11
             },
             {
               "rubro": "ENTRADAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 4.68,
+              "subieron": 14,
               "bajaron": 0,
               "total": 16
             },
             {
               "rubro": "MENÚ KIDS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 3.92,
+              "subieron": 2,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "PASTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.95,
+              "subieron": 11,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "POSTRES & HELADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 9.71,
+              "subieron": 15,
               "bajaron": 0,
               "total": 15
             },
             {
               "rubro": "SIN TACC",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.97,
+              "subieron": 3,
               "bajaron": 0,
               "total": 3
             },
@@ -151,22 +151,22 @@
             },
             {
               "rubro": "SÁNDWICHES",
-              "variacion": 2.23,
-              "subieron": 2,
+              "variacion": 7.05,
+              "subieron": 7,
               "bajaron": 0,
               "total": 9
             },
             {
               "rubro": "TEX-MEX",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.93,
+              "subieron": 6,
               "bajaron": 0,
               "total": 6
             },
             {
               "rubro": "WOKS & VEGGIE",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 6.22,
+              "subieron": 5,
               "bajaron": 0,
               "total": 6
             }
@@ -175,54 +175,54 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 56,
-          "variacion_dia": 0.0,
+          "variacion_dia": 8.57,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.4,
+              "subieron": 11,
               "bajaron": 0,
               "total": 12
             },
             {
               "rubro": "CAFETERÍA ESPECIAL",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 4.5,
+              "subieron": 6,
               "bajaron": 0,
               "total": 6
             },
             {
               "rubro": "CHEESECAKES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.91,
+              "subieron": 2,
               "bajaron": 0,
               "total": 2
             },
             {
               "rubro": "DESAYUNOS & MERIENDAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 9.15,
+              "subieron": 9,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "POSTRES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.6,
+              "subieron": 8,
               "bajaron": 0,
               "total": 8
             },
             {
               "rubro": "RECOMENDADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 12.26,
+              "subieron": 8,
               "bajaron": 0,
               "total": 10
             },
             {
               "rubro": "TORTAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 8.15,
+              "subieron": 8,
               "bajaron": 0,
               "total": 8
             }
@@ -329,7 +329,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 168,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.14,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -354,8 +354,8 @@
             },
             {
               "rubro": "CHOPP & BEERS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 2.39,
+              "subieron": 7,
               "bajaron": 0,
               "total": 10
             },
@@ -510,5 +510,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-06-29"
+  "fecha_actualizacion": "2026-06-30"
 }
