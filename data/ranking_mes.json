@@ -25,7 +25,7 @@
   },
   {
     "nombre": "Promoción Paletas R&F",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Restaurante",
     "rubro": "MENÚ KIDS",
     "diff_pct": 16.0,
@@ -33,7 +33,7 @@
   },
   {
     "nombre": "Promoción Paletas R&F",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Restaurante",
     "rubro": "MENÚ KIDS",
     "diff_pct": 16.0,
@@ -80,8 +80,16 @@
     "precio_hoy": 8900.0
   },
   {
+    "nombre": "Apple  Pudding",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "POSTRES",
+    "diff_pct": 12.66,
+    "precio_hoy": 8900.0
+  },
+  {
     "nombre": "Apple Pudding",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
     "diff_pct": 12.66,
@@ -97,7 +105,7 @@
   },
   {
     "nombre": "Apple Pudding",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
     "diff_pct": 12.66,
@@ -105,35 +113,11 @@
   },
   {
     "nombre": "Apple  Pudding",
-    "local": "Savoy",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 12.66,
-    "precio_hoy": 8900.0
-  },
-  {
-    "nombre": "Apple  Pudding",
     "local": "Orono",
     "carta": "Cafeteria",
     "rubro": "POSTRES",
     "diff_pct": 12.66,
     "precio_hoy": 8900.0
-  },
-  {
-    "nombre": "Desayuno New York",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "DESAYUNOS & MERIENDAS",
-    "diff_pct": 12.5,
-    "precio_hoy": 13500.0
-  },
-  {
-    "nombre": "Desayuno Americano",
-    "local": "Savoy",
-    "carta": "Cafeteria",
-    "rubro": "DESAYUNOS & MERIENDAS",
-    "diff_pct": 12.5,
-    "precio_hoy": 13500.0
   },
   {
     "nombre": "Desayuno New York",
@@ -152,7 +136,23 @@
     "precio_hoy": 13500.0
   },
   {
-    "nombre": "John Lemon",
+    "nombre": "Desayuno New York",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "DESAYUNOS & MERIENDAS",
+    "diff_pct": 12.5,
+    "precio_hoy": 13500.0
+  },
+  {
+    "nombre": "Desayuno Americano",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "DESAYUNOS & MERIENDAS",
+    "diff_pct": 12.5,
+    "precio_hoy": 13500.0
+  },
+  {
+    "nombre": "Agua de Maracuyá y Lima",
     "local": "Savoy",
     "carta": "Restaurante",
     "rubro": "BEBIDAS SIN ALCOHOL",
@@ -164,6 +164,38 @@
     "local": "Orono",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
+    "diff_pct": 12.17,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "John Lemon",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "BEBIDAS SIN ALCOHOL",
+    "diff_pct": 12.17,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "Pomelada de pepino & menta",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "BEBIDAS SIN ALCOHOL",
+    "diff_pct": 12.17,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "Agua de Maracuyá y Lima",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "BEBIDAS SIN ALCOHOL",
+    "diff_pct": 12.17,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "John Lemon",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "BEBIDAS SIN ALCOHOL",
     "diff_pct": 12.17,
     "precio_hoy": 12900.0
   },
@@ -184,38 +216,6 @@
     "precio_hoy": 12900.0
   },
   {
-    "nombre": "John Lemon",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
-    "diff_pct": 12.17,
-    "precio_hoy": 12900.0
-  },
-  {
-    "nombre": "Agua de Maracuyá y Lima",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
-    "diff_pct": 12.17,
-    "precio_hoy": 12900.0
-  },
-  {
-    "nombre": "Pomelada de pepino & menta",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
-    "diff_pct": 12.17,
-    "precio_hoy": 12900.0
-  },
-  {
-    "nombre": "Agua de Maracuyá y Lima",
-    "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
-    "diff_pct": 12.17,
-    "precio_hoy": 12900.0
-  },
-  {
     "nombre": "R&F Steak",
     "local": "Savoy",
     "carta": "Restaurante",
@@ -232,10 +232,10 @@
     "precio_hoy": 23500.0
   },
   {
-    "nombre": "Flan  casero",
-    "local": "Orono",
+    "nombre": "Small Chocotorta",
+    "local": "Savoy",
     "carta": "Cafeteria",
-    "rubro": "POSTRES",
+    "rubro": "TORTAS",
     "diff_pct": 11.76,
     "precio_hoy": 9500.0
   }
