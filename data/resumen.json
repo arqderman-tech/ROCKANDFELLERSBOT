@@ -1,6 +1,6 @@
 {
   "variacion_dia": 0.08,
-  "variacion_mes": 3.39,
+  "variacion_mes": 3.34,
   "total_productos": 907,
   "locales": {
     "Orono": {
@@ -475,12 +475,12 @@
     },
     "Savoy": {
       "total_productos": 453,
-      "variacion_dia": 0.12,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.31,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -526,16 +526,16 @@
             },
             {
               "rubro": "MENÚ KIDS",
-              "variacion": 7.72,
-              "subieron": 5,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 7
             },
             {
               "rubro": "PASTAS",
-              "variacion": -0.87,
+              "variacion": 0.0,
               "subieron": 0,
-              "bajaron": 1,
+              "bajaron": 0,
               "total": 12
             },
             {
@@ -585,7 +585,7 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 56,
-          "variacion_dia": 0.17,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -610,8 +610,8 @@
             },
             {
               "rubro": "DESAYUNOS & MERIENDAS",
-              "variacion": 0.95,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 10
             },
@@ -920,5 +920,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-07-04"
+  "fecha_actualizacion": "2026-07-05"
 }
