@@ -1,15 +1,15 @@
 {
   "variacion_dia": 0.08,
-  "variacion_mes": 3.34,
-  "total_productos": 907,
+  "variacion_mes": 3.39,
+  "total_productos": 905,
   "locales": {
     "Orono": {
-      "total_productos": 454,
+      "total_productos": 453,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 139,
+          "total_productos": 138,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -81,13 +81,6 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
-            },
-            {
-              "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
-              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -474,12 +467,12 @@
       }
     },
     "Savoy": {
-      "total_productos": 453,
+      "total_productos": 452,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
-          "total_productos": 139,
+          "total_productos": 138,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -551,13 +544,6 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
-            },
-            {
-              "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
-              "bajaron": 0,
-              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -920,5 +906,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-07-08"
+  "fecha_actualizacion": "2026-07-09"
 }
