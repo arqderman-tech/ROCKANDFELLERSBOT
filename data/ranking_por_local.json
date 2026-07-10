@@ -1,5 +1,14 @@
 {
-  "Orono": [],
+  "Orono": [
+    {
+      "nombre": "Milanesa & Provolone Pasta",
+      "local": "Orono",
+      "carta": "Restaurante",
+      "rubro": "PASTAS",
+      "diff_pct": -10.43,
+      "precio_hoy": 30900.0
+    }
+  ],
   "Alto Rosario": [],
   "Savoy": []
 }
