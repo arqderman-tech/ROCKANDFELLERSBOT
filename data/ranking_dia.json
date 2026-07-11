@@ -1,10 +1,10 @@
 [
   {
-    "nombre": "Milanesa & Provolone Pasta",
-    "local": "Orono",
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Savoy",
     "carta": "Restaurante",
-    "rubro": "PASTAS",
-    "diff_pct": -10.43,
-    "precio_hoy": 30900.0
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 20.08,
+    "precio_hoy": 29900.0
   }
 ]
