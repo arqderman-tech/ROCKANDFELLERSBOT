@@ -83,6 +83,13 @@
               "total": 3
             },
             {
+              "rubro": "SUGERENCIAS DEL CHEF",
+              "variacion": 0.0,
+              "subieron": 0,
+              "bajaron": 0,
+              "total": 1
+            },
+            {
               "rubro": "SÁNDWICHES",
               "variacion": 0.0,
               "subieron": 0,
@@ -468,12 +475,12 @@
     },
     "Savoy": {
       "total_productos": 453,
-      "variacion_dia": 0.04,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.14,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -544,6 +551,13 @@
               "subieron": 0,
               "bajaron": 0,
               "total": 3
+            },
+            {
+              "rubro": "SUGERENCIAS DEL CHEF",
+              "variacion": 0.0,
+              "subieron": 0,
+              "bajaron": 0,
+              "total": 1
             },
             {
               "rubro": "SÁNDWICHES",
@@ -906,5 +920,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-07-11"
+  "fecha_actualizacion": "2026-07-12"
 }
