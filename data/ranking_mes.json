@@ -12,8 +12,24 @@
     "local": "Savoy",
     "carta": "Restaurante",
     "rubro": "SUGERENCIAS DEL CHEF",
-    "diff_pct": 20.08,
-    "precio_hoy": 29900.0
+    "diff_pct": 34.54,
+    "precio_hoy": 33500.0
+  },
+  {
+    "nombre": "Las Perdices Sauvignon Blanc",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "VIÑA LAS PERDICES",
+    "diff_pct": 23.08,
+    "precio_hoy": 16000.0
+  },
+  {
+    "nombre": "Rock&Fit Bowl",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 19.05,
+    "precio_hoy": 12500.0
   },
   {
     "nombre": "Rock&Fit Bowl",
@@ -22,22 +38,6 @@
     "rubro": "RECOMENDADOS",
     "diff_pct": 19.05,
     "precio_hoy": 12500.0
-  },
-  {
-    "nombre": "Rock&Fit Bowl",
-    "local": "Savoy",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 19.05,
-    "precio_hoy": 12500.0
-  },
-  {
-    "nombre": "Stella Artois Noire.",
-    "local": "Savoy",
-    "carta": "Cocktails",
-    "rubro": "CHOPP & BEERS",
-    "diff_pct": 16.07,
-    "precio_hoy": 6500.0
   },
   {
     "nombre": "Promoción Paletas R&F",
@@ -57,7 +57,7 @@
   },
   {
     "nombre": "Panqueques rock",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
     "diff_pct": 13.45,
@@ -65,7 +65,7 @@
   },
   {
     "nombre": "Panqueques rock",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
     "diff_pct": 13.45,
@@ -96,6 +96,14 @@
     "precio_hoy": 8900.0
   },
   {
+    "nombre": "Apple Pudding",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "POSTRES & HELADOS",
+    "diff_pct": 12.66,
+    "precio_hoy": 8900.0
+  },
+  {
     "nombre": "Apple  Pudding",
     "local": "Savoy",
     "carta": "Cafeteria",
@@ -104,8 +112,16 @@
     "precio_hoy": 8900.0
   },
   {
-    "nombre": "Apple Pudding",
+    "nombre": "Apple  Pudding",
     "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "POSTRES",
+    "diff_pct": 12.66,
+    "precio_hoy": 8900.0
+  },
+  {
+    "nombre": "Apple Pudding",
+    "local": "Savoy",
     "carta": "Restaurante",
     "rubro": "POSTRES & HELADOS",
     "diff_pct": 12.66,
@@ -120,24 +136,16 @@
     "precio_hoy": 8900.0
   },
   {
-    "nombre": "Apple  Pudding",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 12.66,
-    "precio_hoy": 8900.0
-  },
-  {
-    "nombre": "Apple Pudding",
+    "nombre": "Desayuno New York",
     "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
-    "diff_pct": 12.66,
-    "precio_hoy": 8900.0
+    "carta": "Cafeteria",
+    "rubro": "DESAYUNOS & MERIENDAS",
+    "diff_pct": 12.5,
+    "precio_hoy": 13500.0
   },
   {
     "nombre": "Desayuno New York",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Cafeteria",
     "rubro": "DESAYUNOS & MERIENDAS",
     "diff_pct": 12.5,
@@ -160,22 +168,6 @@
     "precio_hoy": 13500.0
   },
   {
-    "nombre": "Desayuno New York",
-    "local": "Orono",
-    "carta": "Cafeteria",
-    "rubro": "DESAYUNOS & MERIENDAS",
-    "diff_pct": 12.5,
-    "precio_hoy": 13500.0
-  },
-  {
-    "nombre": "Milanesa & Provolone Pasta",
-    "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "PASTAS",
-    "diff_pct": 12.36,
-    "precio_hoy": 30900.0
-  },
-  {
     "nombre": "Agua de Maracuyá y Lima",
     "local": "Savoy",
     "carta": "Restaurante",
@@ -184,26 +176,18 @@
     "precio_hoy": 12900.0
   },
   {
-    "nombre": "Pomelada de pepino & menta",
-    "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
-    "diff_pct": 12.17,
-    "precio_hoy": 12900.0
-  },
-  {
-    "nombre": "John Lemon",
+    "nombre": "Feller's Sambayon",
     "local": "Orono",
     "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
+    "rubro": "POSTRES & HELADOS",
     "diff_pct": 12.17,
     "precio_hoy": 12900.0
   },
   {
-    "nombre": "John Lemon",
+    "nombre": "Feller's Sambayon",
     "local": "Savoy",
     "carta": "Restaurante",
-    "rubro": "BEBIDAS SIN ALCOHOL",
+    "rubro": "POSTRES & HELADOS",
     "diff_pct": 12.17,
     "precio_hoy": 12900.0
   },
@@ -224,19 +208,35 @@
     "precio_hoy": 12900.0
   },
   {
-    "nombre": "Feller's Sambayon",
+    "nombre": "John Lemon",
     "local": "Savoy",
     "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
+    "rubro": "BEBIDAS SIN ALCOHOL",
     "diff_pct": 12.17,
     "precio_hoy": 12900.0
   },
   {
-    "nombre": "Feller's Sambayon",
+    "nombre": "John Lemon",
     "local": "Orono",
     "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
+    "rubro": "BEBIDAS SIN ALCOHOL",
     "diff_pct": 12.17,
     "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "Pomelada de pepino & menta",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "BEBIDAS SIN ALCOHOL",
+    "diff_pct": 12.17,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": 12.04,
+    "precio_hoy": 33500.0
   }
 ]

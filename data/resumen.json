@@ -1,16 +1,16 @@
 {
-  "variacion_dia": 0.12,
-  "variacion_mes": 3.47,
+  "variacion_dia": 0.27,
+  "variacion_mes": 3.52,
   "total_productos": 907,
   "locales": {
     "Orono": {
       "total_productos": 454,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.27,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.64,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -56,8 +56,8 @@
             },
             {
               "rubro": "MENÚ KIDS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 7.72,
+              "subieron": 5,
               "bajaron": 0,
               "total": 7
             },
@@ -84,8 +84,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 34.54,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
@@ -115,7 +115,7 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 57,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.17,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -140,8 +140,8 @@
             },
             {
               "rubro": "DESAYUNOS & MERIENDAS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.95,
+              "subieron": 1,
               "bajaron": 0,
               "total": 10
             },
@@ -171,7 +171,7 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 90,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.26,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
@@ -259,8 +259,8 @@
             },
             {
               "rubro": "VIÑA LAS PERDICES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.78,
+              "subieron": 1,
               "bajaron": 0,
               "total": 13
             }
@@ -475,12 +475,12 @@
     },
     "Savoy": {
       "total_productos": 453,
-      "variacion_dia": 0.0,
+      "variacion_dia": 0.03,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 139,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.09,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -554,8 +554,8 @@
             },
             {
               "rubro": "SUGERENCIAS DEL CHEF",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 12.04,
+              "subieron": 1,
               "bajaron": 0,
               "total": 1
             },
@@ -920,5 +920,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-07-25"
+  "fecha_actualizacion": "2026-07-26"
 }
