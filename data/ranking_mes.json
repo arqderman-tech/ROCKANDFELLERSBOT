@@ -8,6 +8,14 @@
     "precio_hoy": 16000.0
   },
   {
+    "nombre": "Tallarines kids",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "MENÚ KIDS",
+    "diff_pct": 10.81,
+    "precio_hoy": 20500.0
+  },
+  {
     "nombre": "Mini Macaroni & Cheese",
     "local": "Orono",
     "carta": "Restaurante",
@@ -24,7 +32,7 @@
     "precio_hoy": 20500.0
   },
   {
-    "nombre": "Tallarines kids",
+    "nombre": "Fried Kids",
     "local": "Orono",
     "carta": "Restaurante",
     "rubro": "MENÚ KIDS",
@@ -40,27 +48,11 @@
     "precio_hoy": 20500.0
   },
   {
-    "nombre": "Fried Kids",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "MENÚ KIDS",
-    "diff_pct": 10.81,
-    "precio_hoy": 20500.0
-  },
-  {
     "nombre": "Gluten Free con Tostadas",
     "local": "Orono",
     "carta": "Cafeteria",
     "rubro": "DESAYUNOS & MERIENDAS",
     "diff_pct": 9.52,
     "precio_hoy": 11500.0
-  },
-  {
-    "nombre": "Milanesa & Provolone Pasta",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "PASTAS",
-    "diff_pct": -10.43,
-    "precio_hoy": 30900.0
   }
 ]
