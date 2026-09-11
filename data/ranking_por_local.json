@@ -1,5 +1,14 @@
 {
   "Orono": [],
   "Alto Rosario": [],
-  "Savoy": []
+  "Savoy": [
+    {
+      "nombre": "Mushrooms Tenderloin",
+      "local": "Savoy",
+      "carta": "Restaurante",
+      "rubro": "CARNES & PESCADOS",
+      "diff_pct": 18.12,
+      "precio_hoy": 36500.0
+    }
+  ]
 }
