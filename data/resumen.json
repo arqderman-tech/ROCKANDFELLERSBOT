@@ -1,10 +1,10 @@
 {
   "variacion_dia": 0.02,
   "variacion_mes": 0.02,
-  "total_productos": 907,
+  "total_productos": 905,
   "locales": {
     "Orono": {
-      "total_productos": 454,
+      "total_productos": 453,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -268,7 +268,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 168,
+          "total_productos": 167,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -367,7 +367,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 14
+              "total": 13
             },
             {
               "rubro": "SINGLE MALT",
@@ -474,7 +474,7 @@
       }
     },
     "Savoy": {
-      "total_productos": 453,
+      "total_productos": 452,
       "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
@@ -738,7 +738,7 @@
         },
         "cocktails": {
           "label": "Cocktails",
-          "total_productos": 168,
+          "total_productos": 167,
           "variacion_dia": 0.0,
           "rubros": [
             {
@@ -837,7 +837,7 @@
               "variacion": 0.0,
               "subieron": 0,
               "bajaron": 0,
-              "total": 14
+              "total": 13
             },
             {
               "rubro": "SINGLE MALT",
@@ -920,5 +920,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-10-05"
+  "fecha_actualizacion": "2026-10-06"
 }
