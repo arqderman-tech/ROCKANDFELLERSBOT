@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "nombre": "Mushrooms Tenderloin",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "CARNES & PESCADOS",
+    "diff_pct": 18.12,
+    "precio_hoy": 36500.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Orono",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": -4.48,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Sugerencia del Chef.-",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "SUGERENCIAS DEL CHEF",
+    "diff_pct": -4.48,
+    "precio_hoy": 32000.0
+  }
+]
