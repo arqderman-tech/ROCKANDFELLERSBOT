@@ -104,6 +104,14 @@
     "rubro": "CHEESECAKE & TORTAS"
   },
   {
+    "producto": "American Egg Bowl",
+    "Orono": 1.0,
+    "Alto Rosario": null,
+    "Savoy": 1.0,
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS"
+  },
+  {
     "producto": "American Nutella",
     "Orono": 7000.0,
     "Alto Rosario": null,
@@ -214,6 +222,14 @@
     "Savoy": 33900.0,
     "carta": "Restaurante",
     "rubro": "SIN TACC"
+  },
+  {
+    "producto": "Bacon egg bowl",
+    "Orono": 1.0,
+    "Alto Rosario": null,
+    "Savoy": 1.0,
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS"
   },
   {
     "producto": "Baileys",
@@ -382,21 +398,5 @@
     "Savoy": 3800.0,
     "carta": "Cocktails",
     "rubro": "APERITIVOS & BITTERS"
-  },
-  {
-    "producto": "Brownie de Chocolate con Helado",
-    "Orono": 13900.0,
-    "Alto Rosario": null,
-    "Savoy": 13900.0,
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS"
-  },
-  {
-    "producto": "Brownie de Chocolate y  Banana",
-    "Orono": 14500.0,
-    "Alto Rosario": null,
-    "Savoy": 14500.0,
-    "carta": "Cafeteria",
-    "rubro": "POSTRES"
   }
 ]
