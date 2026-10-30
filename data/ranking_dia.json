@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "nombre": "American Egg Bowl",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1499900.0,
+    "precio_hoy": 15000.0
+  },
+  {
+    "nombre": "American Egg Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1499900.0,
+    "precio_hoy": 15000.0
+  },
+  {
+    "nombre": "Make your bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1289900.0,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "Bacon egg bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1249900.0,
+    "precio_hoy": 12500.0
+  },
+  {
+    "nombre": "Frutas de estación",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1199900.0,
+    "precio_hoy": 12000.0
+  },
+  {
+    "nombre": "Morning Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1189900.0,
+    "precio_hoy": 11900.0
+  },
+  {
+    "nombre": "Bacon egg bowl",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1149900.0,
+    "precio_hoy": 11500.0
+  },
+  {
+    "nombre": "Greek Bowl",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1149900.0,
+    "precio_hoy": 11500.0
+  },
+  {
+    "nombre": "Make your bowl",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1149900.0,
+    "precio_hoy": 11500.0
+  },
+  {
+    "nombre": "Frutas de estación",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1099900.0,
+    "precio_hoy": 11000.0
+  },
+  {
+    "nombre": "Greek Bowl",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1049900.0,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Morning Bowl",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1049900.0,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Hummus Toast",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 1049900.0,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Hummus Toast",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 999900.0,
+    "precio_hoy": 10000.0
+  },
+  {
+    "nombre": "Selladito Clásico R&F",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 949900.0,
+    "precio_hoy": 9500.0
+  },
+  {
+    "nombre": "Selladito Clásico R&F",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 949900.0,
+    "precio_hoy": 9500.0
+  },
+  {
+    "nombre": "Chandon Cuvée Réserve Blanc De Noirs",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 44.12,
+    "precio_hoy": 49000.0
+  },
+  {
+    "nombre": "Jim Beam White",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TENNESSEE & BOURBON",
+    "diff_pct": 38.46,
+    "precio_hoy": 18000.0
+  },
+  {
+    "nombre": "Copa de vino blanco reserva",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BEBIDAS CON ALCOHOL",
+    "diff_pct": 33.33,
+    "precio_hoy": 8000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 32.35,
+    "precio_hoy": 45000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 32.35,
+    "precio_hoy": 45000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Magnum",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 31.58,
+    "precio_hoy": 75000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Délice Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Caipirinha",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Apéritif Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Rosé Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "La Celia Elite Pinot Noir",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA LA CELIA",
+    "diff_pct": 27.27,
+    "precio_hoy": 42000.0
+  },
+  {
+    "nombre": "Copa de vino Altos del Plata",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BEBIDAS CON ALCOHOL",
+    "diff_pct": 27.12,
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Jim Beam Black",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TENNESSEE & BOURBON",
+    "diff_pct": 25.93,
+    "precio_hoy": 17000.0
+  }
+]

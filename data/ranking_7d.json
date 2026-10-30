@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "nombre": "Chandon Cuvée Réserve Blanc De Noirs",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 44.12,
+    "precio_hoy": 49000.0
+  },
+  {
+    "nombre": "Jim Beam White",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TENNESSEE & BOURBON",
+    "diff_pct": 38.46,
+    "precio_hoy": 18000.0
+  },
+  {
+    "nombre": "Copa de vino blanco reserva",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BEBIDAS CON ALCOHOL",
+    "diff_pct": 33.33,
+    "precio_hoy": 8000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 32.35,
+    "precio_hoy": 45000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 32.35,
+    "precio_hoy": 45000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Magnum",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 31.58,
+    "precio_hoy": 75000.0
+  },
+  {
+    "nombre": "Caipirinha",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Délice Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Rosé Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Apéritif Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "La Celia Elite Pinot Noir",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA LA CELIA",
+    "diff_pct": 27.27,
+    "precio_hoy": 42000.0
+  },
+  {
+    "nombre": "Copa de vino Altos del Plata",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BEBIDAS CON ALCOHOL",
+    "diff_pct": 27.12,
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Jim Beam Black",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TENNESSEE & BOURBON",
+    "diff_pct": 25.93,
+    "precio_hoy": 17000.0
+  },
+  {
+    "nombre": "Yogurt Premium",
+    "local": "Orono",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 25.0,
+    "precio_hoy": 7500.0
+  },
+  {
+    "nombre": "Negroni Rouge",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 23.85,
+    "precio_hoy": 13500.0
+  },
+  {
+    "nombre": "Carpano Bianco & Tonic",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 23.81,
+    "precio_hoy": 7800.0
+  },
+  {
+    "nombre": "Jose Cuervo Especial Reposado",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TEQUILAS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Jose Cuervo Especial Silver",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TEQUILAS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Jameson",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "IRISH WHISKY",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Gin Beefeater",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "GIN",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Reserva Malbec",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Malbec Rosé",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Reserva Cabernet Franc",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Negroni Perfetto",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 23.08,
+    "precio_hoy": 16000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Sauvignon Blanc",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Reserva Pinot Noir",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Volcan de mi Tierra Reposado",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TEQUILAS",
+    "diff_pct": 23.08,
+    "precio_hoy": 16000.0
+  },
+  {
+    "nombre": "Old Fashioned",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 22.86,
+    "precio_hoy": 12900.0
+  },
+  {
+    "nombre": "CITRUS HENNESSY",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "HENNESSY",
+    "diff_pct": 22.73,
+    "precio_hoy": 13500.0
+  }
+]
