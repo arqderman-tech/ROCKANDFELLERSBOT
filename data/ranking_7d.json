@@ -48,6 +48,14 @@
     "precio_hoy": 75000.0
   },
   {
+    "nombre": "Chandon Rosé Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
     "nombre": "Caipirinha",
     "local": "Orono",
     "carta": "Cocktails",
@@ -57,14 +65,6 @@
   },
   {
     "nombre": "Chandon Délice Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Chandon Rosé Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
@@ -168,15 +168,23 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Terrazas de los Andes Reserva Malbec",
+    "nombre": "Negroni Perfetto",
     "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
     "diff_pct": 23.08,
-    "precio_hoy": 32000.0
+    "precio_hoy": 16000.0
   },
   {
-    "nombre": "Terrazas de los Andes Malbec Rosé",
+    "nombre": "Volcan de mi Tierra Reposado",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TEQUILAS",
+    "diff_pct": 23.08,
+    "precio_hoy": 16000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Sauvignon Blanc",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -192,15 +200,15 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Negroni Perfetto",
+    "nombre": "Terrazas de los Andes Malbec Rosé",
     "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
     "diff_pct": 23.08,
-    "precio_hoy": 16000.0
+    "precio_hoy": 32000.0
   },
   {
-    "nombre": "Terrazas de los Andes Sauvignon Blanc",
+    "nombre": "Terrazas de los Andes Reserva Malbec",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -214,14 +222,6 @@
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
     "diff_pct": 23.08,
     "precio_hoy": 32000.0
-  },
-  {
-    "nombre": "Volcan de mi Tierra Reposado",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "TEQUILAS",
-    "diff_pct": 23.08,
-    "precio_hoy": 16000.0
   },
   {
     "nombre": "Old Fashioned",

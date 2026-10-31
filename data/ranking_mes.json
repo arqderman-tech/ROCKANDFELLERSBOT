@@ -56,7 +56,7 @@
     "precio_hoy": 39900.0
   },
   {
-    "nombre": "Chandon Extra Brut Mini",
+    "nombre": "Chandon Délice Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
@@ -80,7 +80,7 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Chandon Délice Mini",
+    "nombre": "Chandon Extra Brut Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
@@ -160,14 +160,6 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Jose Cuervo Especial Reposado",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "TEQUILAS",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
-  },
-  {
     "nombre": "Gin Beefeater",
     "local": "Orono",
     "carta": "Cocktails",
@@ -176,20 +168,12 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Terrazas de los Andes Malbec Rosé",
+    "nombre": "Jose Cuervo Especial Reposado",
     "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
-    "diff_pct": 23.08,
-    "precio_hoy": 32000.0
-  },
-  {
-    "nombre": "Terrazas de los Andes Reserva Pinot Noir",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
-    "diff_pct": 23.08,
-    "precio_hoy": 32000.0
+    "carta": "Cocktails",
+    "rubro": "TEQUILAS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
   },
   {
     "nombre": "Negroni Perfetto",
@@ -200,6 +184,22 @@
     "precio_hoy": 16000.0
   },
   {
+    "nombre": "Volcan de mi Tierra Reposado",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "TEQUILAS",
+    "diff_pct": 23.08,
+    "precio_hoy": 16000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Malbec Rosé",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
     "nombre": "Terrazas de los Andes Reserva Malbec",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
@@ -208,12 +208,12 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Volcan de mi Tierra Reposado",
+    "nombre": "Terrazas de los Andes Sauvignon Blanc",
     "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "TEQUILAS",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
     "diff_pct": 23.08,
-    "precio_hoy": 16000.0
+    "precio_hoy": 32000.0
   },
   {
     "nombre": "Terrazas de los Andes Reserva Cabernet Franc",
@@ -224,7 +224,7 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Terrazas de los Andes Sauvignon Blanc",
+    "nombre": "Terrazas de los Andes Reserva Pinot Noir",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
