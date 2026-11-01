@@ -1,18 +1,42 @@
 [
   {
-    "nombre": "Medialuna con Jamon y Queso",
+    "nombre": "Sweet Mix Combo",
+    "local": "Savoy",
+    "carta": "Restaurante",
+    "rubro": "POSTRES & HELADOS",
+    "diff_pct": 12.9,
+    "precio_hoy": 17500.0
+  },
+  {
+    "nombre": "Sweet Mix  Combo",
     "local": "Savoy",
     "carta": "Cafeteria",
     "rubro": "RECOMENDADOS",
-    "diff_pct": 20.41,
-    "precio_hoy": 5900.0
+    "diff_pct": 12.9,
+    "precio_hoy": 17500.0
   },
   {
-    "nombre": "Grey Goose",
+    "nombre": "Sweet Mix Combo.",
     "local": "Savoy",
-    "carta": "Cocktails",
-    "rubro": "VODKA",
-    "diff_pct": 20.0,
-    "precio_hoy": 18000.0
+    "carta": "Cafeteria",
+    "rubro": "POSTRES",
+    "diff_pct": 12.9,
+    "precio_hoy": 17500.0
+  },
+  {
+    "nombre": "Las Perdices Malbec",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "VIÑA LAS PERDICES",
+    "diff_pct": 12.82,
+    "precio_hoy": 22000.0
+  },
+  {
+    "nombre": "Las Perdices Reserva Pinot Noir",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "VIÑA LAS PERDICES",
+    "diff_pct": 7.69,
+    "precio_hoy": 28000.0
   }
 ]

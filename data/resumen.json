@@ -1,6 +1,6 @@
 {
-  "variacion_dia": -5.8,
-  "variacion_mes": 6.97,
+  "variacion_dia": -5.74,
+  "variacion_mes": 7.04,
   "total_productos": 919,
   "locales": {
     "Orono": {
@@ -475,12 +475,12 @@
     },
     "Savoy": {
       "total_productos": 459,
-      "variacion_dia": 0.09,
+      "variacion_dia": 0.13,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
           "total_productos": 138,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.09,
           "rubros": [
             {
               "rubro": "BEBIDAS SIN ALCOHOL",
@@ -540,8 +540,8 @@
             },
             {
               "rubro": "POSTRES & HELADOS",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 0.86,
+              "subieron": 1,
               "bajaron": 0,
               "total": 15
             },
@@ -585,7 +585,7 @@
         "cafeteria": {
           "label": "Cafeteria",
           "total_productos": 64,
-          "variacion_dia": 0.32,
+          "variacion_dia": 0.4,
           "rubros": [
             {
               "rubro": "CAFETERÍA CLÁSICA",
@@ -617,14 +617,14 @@
             },
             {
               "rubro": "POSTRES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.61,
+              "subieron": 1,
               "bajaron": 0,
               "total": 8
             },
             {
               "rubro": "RECOMENDADOS",
-              "variacion": 1.13,
+              "variacion": 0.72,
               "subieron": 1,
               "bajaron": 0,
               "total": 18
@@ -641,7 +641,7 @@
         "vinos-y-espumantes": {
           "label": "Vinos y Espumantes",
           "total_productos": 90,
-          "variacion_dia": 0.0,
+          "variacion_dia": 0.23,
           "rubros": [
             {
               "rubro": "BEBIDAS CON ALCOHOL",
@@ -729,8 +729,8 @@
             },
             {
               "rubro": "VIÑA LAS PERDICES",
-              "variacion": 0.0,
-              "subieron": 0,
+              "variacion": 1.58,
+              "subieron": 2,
               "bajaron": 0,
               "total": 13
             }
@@ -739,7 +739,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 167,
-          "variacion_dia": 0.12,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -904,8 +904,8 @@
             },
             {
               "rubro": "VODKA",
-              "variacion": 2.86,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 7
             }
@@ -920,5 +920,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-10-31"
+  "fecha_actualizacion": "2026-11-01"
 }
