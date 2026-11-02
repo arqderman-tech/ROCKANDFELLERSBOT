@@ -56,6 +56,14 @@
     "precio_hoy": 39900.0
   },
   {
+    "nombre": "Chandon Apéritif Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
     "nombre": "Chandon Rosé Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
@@ -72,14 +80,6 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Caipirinha",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
     "nombre": "Chandon Délice Mini",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
@@ -88,10 +88,10 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Chandon Apéritif Mini",
+    "nombre": "Caipirinha",
     "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
     "diff_pct": 28.57,
     "precio_hoy": 9000.0
   },
@@ -144,10 +144,10 @@
     "precio_hoy": 7800.0
   },
   {
-    "nombre": "Gin Beefeater",
+    "nombre": "Jameson",
     "local": "Orono",
     "carta": "Cocktails",
-    "rubro": "GIN",
+    "rubro": "IRISH WHISKY",
     "diff_pct": 23.53,
     "precio_hoy": 10500.0
   },
@@ -160,18 +160,18 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Jameson",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "IRISH WHISKY",
-    "diff_pct": 23.53,
-    "precio_hoy": 10500.0
-  },
-  {
     "nombre": "Jose Cuervo Especial Silver",
     "local": "Orono",
     "carta": "Cocktails",
     "rubro": "TEQUILAS",
+    "diff_pct": 23.53,
+    "precio_hoy": 10500.0
+  },
+  {
+    "nombre": "Gin Beefeater",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "GIN",
     "diff_pct": 23.53,
     "precio_hoy": 10500.0
   },
@@ -192,7 +192,7 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Terrazas de los Andes Reserva Malbec",
+    "nombre": "Terrazas de los Andes Reserva Cabernet Franc",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -200,7 +200,7 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Terrazas de los Andes Reserva Cabernet Franc",
+    "nombre": "Terrazas de los Andes Sauvignon Blanc",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -216,7 +216,7 @@
     "precio_hoy": 16000.0
   },
   {
-    "nombre": "Terrazas de los Andes Reserva Pinot Noir",
+    "nombre": "Terrazas de los Andes Reserva Malbec",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -224,7 +224,7 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Terrazas de los Andes Sauvignon Blanc",
+    "nombre": "Terrazas de los Andes Reserva Pinot Noir",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",

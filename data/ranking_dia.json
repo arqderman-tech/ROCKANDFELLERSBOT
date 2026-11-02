@@ -1,42 +1,10 @@
 [
   {
-    "nombre": "Sweet Mix Combo",
+    "nombre": "Patagonia 24.7 Session IPA.",
     "local": "Savoy",
-    "carta": "Restaurante",
-    "rubro": "POSTRES & HELADOS",
-    "diff_pct": 12.9,
-    "precio_hoy": 17500.0
-  },
-  {
-    "nombre": "Sweet Mix  Combo",
-    "local": "Savoy",
-    "carta": "Cafeteria",
-    "rubro": "RECOMENDADOS",
-    "diff_pct": 12.9,
-    "precio_hoy": 17500.0
-  },
-  {
-    "nombre": "Sweet Mix Combo.",
-    "local": "Savoy",
-    "carta": "Cafeteria",
-    "rubro": "POSTRES",
-    "diff_pct": 12.9,
-    "precio_hoy": 17500.0
-  },
-  {
-    "nombre": "Las Perdices Malbec",
-    "local": "Savoy",
-    "carta": "Vinos y Espumantes",
-    "rubro": "VIÑA LAS PERDICES",
-    "diff_pct": 12.82,
-    "precio_hoy": 22000.0
-  },
-  {
-    "nombre": "Las Perdices Reserva Pinot Noir",
-    "local": "Savoy",
-    "carta": "Vinos y Espumantes",
-    "rubro": "VIÑA LAS PERDICES",
-    "diff_pct": 7.69,
-    "precio_hoy": 28000.0
+    "carta": "Cocktails",
+    "rubro": "CHOPP & BEERS",
+    "diff_pct": 7.94,
+    "precio_hoy": 6800.0
   }
 ]
