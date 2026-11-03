@@ -475,7 +475,7 @@
     },
     "Savoy": {
       "total_productos": 459,
-      "variacion_dia": 0.02,
+      "variacion_dia": 0.0,
       "cartas": {
         "restaurante": {
           "label": "Restaurante",
@@ -739,7 +739,7 @@
         "cocktails": {
           "label": "Cocktails",
           "total_productos": 167,
-          "variacion_dia": 0.05,
+          "variacion_dia": 0.0,
           "rubros": [
             {
               "rubro": "ABSOLUT  COCKTAILS",
@@ -764,8 +764,8 @@
             },
             {
               "rubro": "CHOPP & BEERS",
-              "variacion": 0.79,
-              "subieron": 1,
+              "variacion": 0.0,
+              "subieron": 0,
               "bajaron": 0,
               "total": 10
             },
@@ -920,5 +920,5 @@
     "Vinos y Espumantes": "#8b5cf6",
     "Cocktails": "#0ea5e9"
   },
-  "fecha_actualizacion": "2026-11-02"
+  "fecha_actualizacion": "2026-11-03"
 }
