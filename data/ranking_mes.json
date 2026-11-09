@@ -33,7 +33,7 @@
   },
   {
     "nombre": "Copa de vino blanco reserva",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BEBIDAS CON ALCOHOL",
     "diff_pct": 33.33,
@@ -41,13 +41,21 @@
   },
   {
     "nombre": "Copa de vino blanco reserva",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BEBIDAS CON ALCOHOL",
     "diff_pct": 33.33,
     "precio_hoy": 8000.0
   },
   {
+    "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 32.35,
+    "precio_hoy": 45000.0
+  },
+  {
     "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
     "local": "Orono",
     "carta": "Vinos y Espumantes",
@@ -58,14 +66,6 @@
   {
     "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
     "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
-    "diff_pct": 32.35,
-    "precio_hoy": 45000.0
-  },
-  {
-    "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
-    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
     "diff_pct": 32.35,
@@ -94,30 +94,6 @@
     "rubro": "BODEGAS CHANDON",
     "diff_pct": 31.58,
     "precio_hoy": 75000.0
-  },
-  {
-    "nombre": "Mushrooms Tenderloin",
-    "local": "Orono",
-    "carta": "Restaurante",
-    "rubro": "CARNES & PESCADOS",
-    "diff_pct": 29.13,
-    "precio_hoy": 39900.0
-  },
-  {
-    "nombre": "Chandon Délice Mini",
-    "local": "Savoy",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Chandon Apéritif Mini",
-    "local": "Savoy",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
   },
   {
     "nombre": "Chandon Extra Brut Mini",
@@ -128,14 +104,6 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Chandon Délice Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
     "nombre": "Caipirinha",
     "local": "Savoy",
     "carta": "Cocktails",
@@ -144,10 +112,10 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Caipirinha",
+    "nombre": "Chandon Délice Mini",
     "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
     "diff_pct": 28.57,
     "precio_hoy": 9000.0
   },
@@ -162,6 +130,30 @@
   {
     "nombre": "Chandon Apéritif Mini",
     "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Caipirinha",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Délice Mini",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Apéritif Mini",
+    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
     "diff_pct": 28.57,
@@ -185,7 +177,7 @@
   },
   {
     "nombre": "La Celia Elite Pinot Noir",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA LA CELIA",
     "diff_pct": 27.27,
@@ -193,7 +185,7 @@
   },
   {
     "nombre": "La Celia Elite Pinot Noir",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA LA CELIA",
     "diff_pct": 27.27,
@@ -230,6 +222,14 @@
     "rubro": "TENNESSEE & BOURBON",
     "diff_pct": 25.93,
     "precio_hoy": 17000.0
+  },
+  {
+    "nombre": "Yogurt Premium",
+    "local": "Savoy",
+    "carta": "Cafeteria",
+    "rubro": "RECOMENDADOS",
+    "diff_pct": 25.0,
+    "precio_hoy": 7500.0
   },
   {
     "nombre": "Yogurt Premium",

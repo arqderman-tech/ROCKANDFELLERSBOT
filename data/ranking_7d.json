@@ -24,7 +24,7 @@
     "precio_hoy": 8000.0
   },
   {
-    "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
+    "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -32,7 +32,7 @@
     "precio_hoy": 45000.0
   },
   {
-    "nombre": "Terrazas de los Andes Origen Gualtallary - Chardonnay",
+    "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -48,6 +48,14 @@
     "precio_hoy": 75000.0
   },
   {
+    "nombre": "Chandon Rosé Mini",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
     "nombre": "Caipirinha",
     "local": "Savoy",
     "carta": "Cocktails",
@@ -56,15 +64,7 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Chandon Apéritif Mini",
-    "local": "Savoy",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Chandon Rosé Mini",
+    "nombre": "Chandon Délice Mini",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
@@ -80,7 +80,7 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Chandon Délice Mini",
+    "nombre": "Chandon Apéritif Mini",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
@@ -136,10 +136,10 @@
     "precio_hoy": 7800.0
   },
   {
-    "nombre": "Jose Cuervo Especial Silver",
+    "nombre": "Jameson",
     "local": "Savoy",
     "carta": "Cocktails",
-    "rubro": "TEQUILAS",
+    "rubro": "IRISH WHISKY",
     "diff_pct": 23.53,
     "precio_hoy": 10500.0
   },
@@ -152,7 +152,7 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Jose Cuervo Especial Reposado",
+    "nombre": "Jose Cuervo Especial Silver",
     "local": "Savoy",
     "carta": "Cocktails",
     "rubro": "TEQUILAS",
@@ -160,28 +160,12 @@
     "precio_hoy": 10500.0
   },
   {
-    "nombre": "Jameson",
+    "nombre": "Jose Cuervo Especial Reposado",
     "local": "Savoy",
     "carta": "Cocktails",
-    "rubro": "IRISH WHISKY",
+    "rubro": "TEQUILAS",
     "diff_pct": 23.53,
     "precio_hoy": 10500.0
-  },
-  {
-    "nombre": "Negroni Perfetto",
-    "local": "Savoy",
-    "carta": "Cocktails",
-    "rubro": "APERITIVOS & BITTERS",
-    "diff_pct": 23.08,
-    "precio_hoy": 16000.0
-  },
-  {
-    "nombre": "Terrazas de los Andes Sauvignon Blanc",
-    "local": "Savoy",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
-    "diff_pct": 23.08,
-    "precio_hoy": 32000.0
   },
   {
     "nombre": "Terrazas de los Andes Reserva Cabernet Franc",
@@ -192,7 +176,7 @@
     "precio_hoy": 32000.0
   },
   {
-    "nombre": "Terrazas de los Andes Malbec Rosé",
+    "nombre": "Terrazas de los Andes Sauvignon Blanc",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -200,7 +184,23 @@
     "precio_hoy": 32000.0
   },
   {
+    "nombre": "Negroni Perfetto",
+    "local": "Savoy",
+    "carta": "Cocktails",
+    "rubro": "APERITIVOS & BITTERS",
+    "diff_pct": 23.08,
+    "precio_hoy": 16000.0
+  },
+  {
     "nombre": "Terrazas de los Andes Reserva Pinot Noir",
+    "local": "Savoy",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGA TERRAZAS DE LOS ANDES",
+    "diff_pct": 23.08,
+    "precio_hoy": 32000.0
+  },
+  {
+    "nombre": "Terrazas de los Andes Malbec Rosé",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
@@ -232,10 +232,10 @@
     "precio_hoy": 12900.0
   },
   {
-    "nombre": "HENNESSY TONIC",
+    "nombre": "Bombay Sapphire",
     "local": "Savoy",
     "carta": "Cocktails",
-    "rubro": "HENNESSY",
+    "rubro": "GIN",
     "diff_pct": 22.73,
     "precio_hoy": 13500.0
   }
