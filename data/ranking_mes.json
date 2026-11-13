@@ -57,7 +57,7 @@
   },
   {
     "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
     "diff_pct": 32.35,
@@ -73,7 +73,7 @@
   },
   {
     "nombre": "Terrazas de los Andes Origen Las Compuertas - Malbec",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA TERRAZAS DE LOS ANDES",
     "diff_pct": 32.35,
@@ -96,55 +96,7 @@
     "precio_hoy": 75000.0
   },
   {
-    "nombre": "Chandon Extra Brut Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Caipirinha",
-    "local": "Savoy",
-    "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Chandon Délice Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
     "nombre": "Chandon Rosé Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Chandon Apéritif Mini",
-    "local": "Orono",
-    "carta": "Vinos y Espumantes",
-    "rubro": "BODEGAS CHANDON",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Caipirinha",
-    "local": "Orono",
-    "carta": "Cocktails",
-    "rubro": "CLÁSICOS DEL  MUNDO",
-    "diff_pct": 28.57,
-    "precio_hoy": 9000.0
-  },
-  {
-    "nombre": "Chandon Délice Mini",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
@@ -168,16 +120,64 @@
     "precio_hoy": 9000.0
   },
   {
-    "nombre": "Chandon Rosé Mini",
+    "nombre": "Chandon Délice Mini",
     "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Rosé Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Extra Brut Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Apéritif Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Chandon Délice Mini",
+    "local": "Orono",
+    "carta": "Vinos y Espumantes",
+    "rubro": "BODEGAS CHANDON",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Caipirinha",
+    "local": "Savoy",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
+    "diff_pct": 28.57,
+    "precio_hoy": 9000.0
+  },
+  {
+    "nombre": "Caipirinha",
+    "local": "Orono",
+    "carta": "Cocktails",
+    "rubro": "CLÁSICOS DEL  MUNDO",
     "diff_pct": 28.57,
     "precio_hoy": 9000.0
   },
   {
     "nombre": "La Celia Elite Pinot Noir",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA LA CELIA",
     "diff_pct": 27.27,
@@ -185,7 +185,7 @@
   },
   {
     "nombre": "La Celia Elite Pinot Noir",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BODEGA LA CELIA",
     "diff_pct": 27.27,
@@ -193,7 +193,7 @@
   },
   {
     "nombre": "Copa de vino Altos del Plata",
-    "local": "Savoy",
+    "local": "Orono",
     "carta": "Vinos y Espumantes",
     "rubro": "BEBIDAS CON ALCOHOL",
     "diff_pct": 27.12,
@@ -201,7 +201,7 @@
   },
   {
     "nombre": "Copa de vino Altos del Plata",
-    "local": "Orono",
+    "local": "Savoy",
     "carta": "Vinos y Espumantes",
     "rubro": "BEBIDAS CON ALCOHOL",
     "diff_pct": 27.12,
