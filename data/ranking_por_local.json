@@ -1,5 +1,39 @@
 {
-  "Orono": [],
+  "Orono": [
+    {
+      "nombre": "Sugerencia del Chef.-",
+      "local": "Orono",
+      "carta": "Restaurante",
+      "rubro": "SUGERENCIAS DEL CHEF",
+      "diff_pct": -8.7,
+      "precio_hoy": 31500.0
+    },
+    {
+      "nombre": "Johnnie Walker Black Label",
+      "local": "Orono",
+      "carta": "Cocktails",
+      "rubro": "SCOTCH WHISKY",
+      "diff_pct": -35.97,
+      "precio_hoy": 8900.0
+    }
+  ],
   "Alto Rosario": [],
-  "Savoy": []
+  "Savoy": [
+    {
+      "nombre": "Sugerencia del Chef.-",
+      "local": "Savoy",
+      "carta": "Restaurante",
+      "rubro": "SUGERENCIAS DEL CHEF",
+      "diff_pct": -8.7,
+      "precio_hoy": 31500.0
+    },
+    {
+      "nombre": "Johnnie Walker Black Label",
+      "local": "Savoy",
+      "carta": "Cocktails",
+      "rubro": "SCOTCH WHISKY",
+      "diff_pct": -35.97,
+      "precio_hoy": 8900.0
+    }
+  ]
 }
